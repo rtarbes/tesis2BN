@@ -6,8 +6,13 @@
 import bnlearn as bn
 import json as js
 import sys
+import os
 
-def probabilidadConjunta(model, test):
+from bnlearn.bnlearn import to_BayesianModel
+from bnlearn.bnlearn import _filter_df
+from pgmpy.estimators import BayesianEstimator
+
+def probabilidadConjunta(model, test, fold, tipo):
     #se define un arreglo unidimensional para registrar el resultado de la inferencia
     arreglo = []
     indice  = 0
@@ -24,13 +29,26 @@ def probabilidadConjunta(model, test):
                   valor = valor + "\""+columna + "\":" +str(test[columna][fila]) + ", "
                 
         valor = valor[:-2] + '}'
-        print("FILA N°: " + str(fila) + " -> P(\"Estado\" | " + "[" + valor + "]")
+        regSalida = "FILA N°: " + str(fila+1) + " -> P(\"Estado\" | " + "[" + valor + "]"
+        print(regSalida)
         res = js.loads(valor)
         
         arreglo.append([])
         try:
             q1 = bn.inference.fit(model, variables=['estado'], evidence=res)
            
+            #Guardando los resultados de la inferencia
+            filename = "Experimentos\ProbConjunta_"+tipo+"_"+str(fold)+".txt"
+            if os.path.exists(filename): 
+               tf = open(filename, "a")
+            else:
+               tf = open(filename, "w")
+                
+            tf.write(regSalida)
+            tf.write(str(q1) + os.linesep)
+            tf.close()
+    
+            #Extrayendo la clase con probabilidad mas alta
             if (q1.get_value(estado=0) > q1.get_value(estado=1)):
                  arreglo[indice].append(0)
                  arreglo[indice].append(q1.get_value(estado=0))
@@ -48,16 +66,37 @@ def probabilidadConjunta(model, test):
     
     return arreglo
 
-def Aprendizaje(model):
+def Aprendizaje(model, fold, tipo):
     #aprendiendo la estructura y los parametros de la porción de datos entrenados
     modelo = bn.structure_learning.fit(model, methodtype='hc', scoretype='bic', verbose=3)
-    G = bn.plot(modelo)
     
-    modelo = bn.parameter_learning.fit(modelo, model, verbose=3)
+    #Guardando la estructura aprendida
+    vector = modelo['adjmat']
+    vector = bn.adjmat2vec(vector)
+    vector.to_csv("Experimentos\EstructuraCPD_"+tipo+"_"+str(fold)+".csv", sep=";")
+    #G = bn.plot(modelo)
+     
+    
+    modelo = bn.parameter_learning.fit(modelo, model, verbose=1)
+    # Convertiendo a BayesianModel para guardar los parametros aprendidos
+    if isinstance(modelo, dict):
+        model1 = modelo['model']
+
+    filename =  "Experimentos\ParametrosCPD_"+tipo+"_"+str(fold)+".txt"
+    if os.path.exists(filename): 
+        file = open(filename, "a")
+    else:
+        file = open(filename, "w")
+
+    for cpd in model1.get_cpds():
+        file.write("CPD of {variable}:".format(variable=cpd.variable))
+        file.write(str(cpd) + os.linesep)
+
+    file.close()
 
     #muestra como queda la red bayesiana con la porción de los datos entrenados y los parametros aprendidos
-    G = bn.plot(modelo)
-
+    #G = bn.plot(modelo)
+                
     return modelo
 
 def modelToDataFrame(model, test):
