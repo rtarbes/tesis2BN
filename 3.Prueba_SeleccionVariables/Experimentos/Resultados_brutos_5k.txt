@@ -1,0 +1,1058 @@
+INICIO DE SECCION DE ENTRENAMIENTO, FOLD:  1
+[bnlearn] >Computing best DAG using [hc]
+[bnlearn] >Set scoring type at [bic]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+COLUMNA ELIMINADA DE LA INFERENCIA:  estado
+FILA N°: 1 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 2 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [01:00, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 3 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 4 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 7 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 8 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+
+Finding Elimination Order: : : 0it [01:30, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 9 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 10 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 11 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 12 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 13 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [01:20, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+
+Finding Elimination Order: : : 0it [01:30, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 14 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 15 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 16 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 17 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 18 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [01:20, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+Finding Elimination Order: : : 0it [01:00, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 19 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 20 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 21 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 22 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 23 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+Finding Elimination Order: : : 0it [01:00, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 24 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 25 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 27 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 28 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 29 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+
+Finding Elimination Order: : : 0it [01:00, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 30 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 31 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 32 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 33 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 34 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 35 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 38 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 40 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 42 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 44 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 47 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 48 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 49 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 50 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 51 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 52 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 54 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 55 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 56 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 57 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 58 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [01:20, ?it/s]
+Finding Elimination Order: : : 0it [01:30, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 59 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 60 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 62 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 64 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 66 -> P("Estado" | [{"tt":3.0, "pt":3.0, "game_score":3.0, "final":3.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+
+Finding Elimination Order: : : 0it [01:00, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [01:40, ?it/s]
+Finding Elimination Order: : : 0it [01:50, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 67 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 68 -> P("Estado" | [{"tt":4.0, "pt":4.0, "game_score":4.0, "final":4.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 70 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 72 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 73 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [01:30, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [01:50, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 74 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 75 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 76 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 77 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 78 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [01:20, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 79 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 80 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 81 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 83 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [01:00, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 85 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 86 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 87 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 88 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 89 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [01:00, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 90 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 92 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 93 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 94 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 95 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [01:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+Finding Elimination Order: : : 0it [01:20, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 97 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 98 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 99 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 100 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 103 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 104 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 105 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 106 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 107 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 108 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:10, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+
+
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
+Finding Elimination Order: : : 0it [01:20, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 109 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 110 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 112 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 113 -> P("Estado" | [{"tt":2.0, "pt":2.0, "game_score":2.0, "final":2.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 114 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+0it [00:10, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+0it [00:00, ?it/s]
+
+
+
+
+0it [00:00, ?it/s]
+
+
+
+Finding Elimination Order: : : 0it [00:00, ?it/s]
+
+
+
+
+
+
+
+0it [00:00, ?it/s]
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-8-e32848da80fe> in <module>
+     39 
+     40     #Metricas finales TRAIN
+---> 41     bl.getMetrics(lista_train, y_trainOversample, y_trainOversample, 'TRAIN', fold_no)
+     42 
+     43     print("FIN DE SECCION DE ENTRENAMIENTO, FOLD: ", str(fold_no))
+
+~\OneDrive\Documentos\MAGISTER\SEMINARIO II\Programa BN\tesis2BN\3.Prueba_SeleccionVariables\BayesLib.py in getMetrics(y_true, y_pred, y_class, fold_type, fold_no)
+    131 def getMetrics (y_true, y_pred, y_class, fold_type, fold_no):
+    132     #Calculando las metricas
+--> 133     varAccuracy = accuracy_score(y_true, y_pred)
+    134     varBalancedAccuracy = balanced_accuracy_score(y_true, y_pred)
+    135     varPrecision = precision_score(y_true, y_pred, average='weighted')
+
+~\anaconda3\envs\BNLEARN\lib\site-packages\sklearn\utils\validation.py in inner_f(*args, **kwargs)
+     61             extra_args = len(args) - len(all_args)
+     62             if extra_args <= 0:
+---> 63                 return f(*args, **kwargs)
+     64 
+     65             # extra_args > 0
+
+~\anaconda3\envs\BNLEARN\lib\site-packages\sklearn\metrics\_classification.py in accuracy_score(y_true, y_pred, normalize, sample_weight)
+    200 
+    201     # Compute accuracy for each possible representation
+--> 202     y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+    203     check_consistent_length(y_true, y_pred, sample_weight)
+    204     if y_type.startswith('multilabel'):
+
+~\anaconda3\envs\BNLEARN\lib\site-packages\sklearn\metrics\_classification.py in _check_targets(y_true, y_pred)
+     81     y_pred : array or indicator matrix
+     82     """
+---> 83     check_consistent_length(y_true, y_pred)
+     84     type_true = type_of_target(y_true)
+     85     type_pred = type_of_target(y_pred)
+
+~\anaconda3\envs\BNLEARN\lib\site-packages\sklearn\utils\validation.py in check_consistent_length(*arrays)
+    317     uniques = np.unique(lengths)
+    318     if len(uniques) > 1:
+--> 319         raise ValueError("Found input variables with inconsistent numbers of"
+    320                          " samples: %r" % [int(l) for l in lengths])
+    321 
+
+ValueError: Found input variables with inconsistent numbers of samples: [95, 112]
+
+0it [00:00, ?it/s]
+Finding Elimination Order: : : 0it [00:20, ?it/s]
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 115 -> P("Estado" | [{"tt":0.0, "pt":0.0, "game_score":0.0, "final":0.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 116 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 117 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+FILA N°: 118 -> P("Estado" | [{"tt":1.0, "pt":1.0, "game_score":1.0, "final":1.0}]
+[bnlearn] >Variable Elimination..
+ERROR AL REALIZAR LA INFERENCIA:  All the args are expected to be instances of the same factor class.
+
+Finding Elimination Order: : : 0it [00:30, ?it/s]
+Finding Elimination Order: : : 0it [00:40, ?it/s]
+Finding Elimination Order: : : 0it [00:50, ?it/s]
