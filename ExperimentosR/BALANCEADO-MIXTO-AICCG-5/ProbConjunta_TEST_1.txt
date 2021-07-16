@@ -1,0 +1,376 @@
+(TEST) Fold 1: FILA N°: 1 -> P(estado == "1") | (op1 = 1 , op6 = 1 , programa = 4 , sol1 = "0" )
+A: 0.0
+R: 1.0
+
+(TEST) Fold 1: FILA N°: 2 -> P(estado == "1") | (op1 = 1 , op6 = 1 , programa = 4 , sol1 = "0" )
+A: 0.0
+R: 1.0
+
+(TEST) Fold 1: FILA N°: 3 -> P(estado == "1") | (op1 = 0 , op6 = 1 , programa = 5 , sol1 = "4" )
+A: 0.8877634771864908
+R: 0.11283759495128529
+
+(TEST) Fold 1: FILA N°: 4 -> P(estado == "1") | (op1 = 1 , op6 = 1 , programa = 3 , sol1 = "6" )
+A: 0.9392381108153883
+R: 0.05962629013691449
+
+(TEST) Fold 1: FILA N°: 5 -> P(estado == "1") | (op1 = 1 , op6 = 1 , programa = 4 , sol1 = "6" )
+A: 0.9819444022352369
+R: 0.01730619727056952
+
+(TEST) Fold 1: FILA N°: 6 -> P(estado == "1") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "8" )
+A: 0.9327127394540387
+R: 0.06763201327203246
+
+(TEST) Fold 1: FILA N°: 7 -> P(estado == "1") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "7" )
+A: 0.9174948305500087
+R: 0.08229541705128991
+
+(TEST) Fold 1: FILA N°: 8 -> P(estado == "1") | (op1 = 0 , op6 = 1 , programa = 2 , sol1 = "7" )
+A: 0.8216182669971257
+R: 0.17406251205465728
+
+(TEST) Fold 1: FILA N°: 9 -> P(estado == "1") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "5" )
+A: 0.25731819435296227
+R: 0.7312845634053059
+
+(TEST) Fold 1: FILA N°: 10 -> P(estado == "1") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "8" )
+A: 0.9993869073102705
+R: 0.0006170709871963832
+
+(TEST) Fold 1: FILA N°: 11 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998569980784953
+R: 0.00013009466635120447
+
+(TEST) Fold 1: FILA N°: 12 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 3 , sol1 = "1" )
+A: 0.28108450715784833
+R: 0.7141218944683748
+
+(TEST) Fold 1: FILA N°: 13 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "8" )
+A: 0.9993756216994004
+R: 0.0006011894805921878
+
+(TEST) Fold 1: FILA N°: 14 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "7" )
+A: 0.9938713228998955
+R: 0.006279903583999132
+
+(TEST) Fold 1: FILA N°: 15 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 5 , sol1 = "8" )
+A: 0.9875850748679027
+R: 0.012825910425470315
+
+(TEST) Fold 1: FILA N°: 16 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "7" )
+A: 0.9751447307930674
+R: 0.026172301189300327
+
+(TEST) Fold 1: FILA N°: 17 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 4 , sol1 = "5" )
+A: 0.249997289618376
+R: 0.7449915171740883
+
+(TEST) Fold 1: FILA N°: 18 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998553100521803
+R: 0.0001407528279445798
+
+(TEST) Fold 1: FILA N°: 19 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.997038362608191
+R: 0.0029141231077359415
+
+(TEST) Fold 1: FILA N°: 20 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "8" )
+A: 0.9387424045992854
+R: 0.05842726455480367
+
+(TEST) Fold 1: FILA N°: 21 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 3 , sol1 = "9" )
+A: 0.9967652942260027
+R: 0.003283464526331357
+
+(TEST) Fold 1: FILA N°: 22 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "9" )
+A: 0.9856323147683868
+R: 0.015862489996722295
+
+(TEST) Fold 1: FILA N°: 23 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998445951469388
+R: 0.00014637900902955272
+
+(TEST) Fold 1: FILA N°: 24 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "6" )
+A: 0.9173273406371352
+R: 0.08030257927315441
+
+(TEST) Fold 1: FILA N°: 25 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "4" )
+A: 0.6162555041222981
+R: 0.39491599296223334
+
+(TEST) Fold 1: FILA N°: 26 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 2 , sol1 = "9" )
+A: 0.9934892738606037
+R: 0.00694228556307385
+
+(TEST) Fold 1: FILA N°: 27 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "9" )
+A: 0.9846553326789014
+R: 0.016438333932677584
+
+(TEST) Fold 1: FILA N°: 28 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "7" )
+A: 0.9997834665423491
+R: 0.00019753683572923427
+
+(TEST) Fold 1: FILA N°: 29 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "6" )
+A: 0.9969771613417037
+R: 0.002951704289391947
+
+(TEST) Fold 1: FILA N°: 30 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "7" )
+A: 0.9776587146345278
+R: 0.02373802962438814
+
+(TEST) Fold 1: FILA N°: 31 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 3 , sol1 = "8" )
+A: 0.7688649425841907
+R: 0.2139353708766282
+
+(TEST) Fold 1: FILA N°: 32 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "6" )
+A: 0.9189228297582004
+R: 0.08241087444369904
+
+(TEST) Fold 1: FILA N°: 33 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "8" )
+A: 0.9400359946211214
+R: 0.059164460334372324
+
+(TEST) Fold 1: FILA N°: 34 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 4 , sol1 = "7" )
+A: 0.9724445414300887
+R: 0.02634064950407731
+
+(TEST) Fold 1: FILA N°: 35 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "9" )
+A: 0.9359411191689142
+R: 0.06255709451197633
+
+(TEST) Fold 1: FILA N°: 36 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "9" )
+A: 0.9824194471550892
+R: 0.018625536952397836
+
+(TEST) Fold 1: FILA N°: 37 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "9" )
+A: 0.937228202196029
+R: 0.0614827648755996
+
+(TEST) Fold 1: FILA N°: 38 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "8" )
+A: 0.7975186898809883
+R: 0.2107574196689337
+
+(TEST) Fold 1: FILA N°: 39 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "6" )
+A: 0.7336831620482311
+R: 0.26665534035055105
+
+(TEST) Fold 1: FILA N°: 40 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "9" )
+A: 0.9956347727280604
+R: 0.00464587106335686
+
+(TEST) Fold 1: FILA N°: 41 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "7" )
+A: 0.9774261316354182
+R: 0.02152789804899708
+
+(TEST) Fold 1: FILA N°: 42 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "7" )
+A: 0.9759340273662747
+R: 0.027161338732215635
+
+(TEST) Fold 1: FILA N°: 43 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "8" )
+A: 0.7924705918805193
+R: 0.2028429738838772
+
+(TEST) Fold 1: FILA N°: 44 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "8" )
+A: 0.9410199146766635
+R: 0.05469235781123998
+
+(TEST) Fold 1: FILA N°: 45 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 3 , sol1 = "7" )
+A: 0.9455683290053493
+R: 0.060011554883404275
+
+(TEST) Fold 1: FILA N°: 46 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 4 , sol1 = "6" )
+A: 0.9824087414060224
+R: 0.017283827669278023
+
+(TEST) Fold 1: FILA N°: 47 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "5" )
+A: 0.2901572282537308
+R: 0.7020063896510035
+
+(TEST) Fold 1: FILA N°: 48 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 5 , sol1 = "8" )
+A: 0.9884133936450434
+R: 0.01277097348855315
+
+(TEST) Fold 1: FILA N°: 49 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 2 , sol1 = "9" )
+A: 0.8059177867299429
+R: 0.17576610228427697
+
+(TEST) Fold 1: FILA N°: 50 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "7" )
+A: 0.9997794202644409
+R: 0.00020442971938240041
+
+(TEST) Fold 1: FILA N°: 51 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "7" )
+A: 0.9168658870839785
+R: 0.07618975811523497
+
+(TEST) Fold 1: FILA N°: 52 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "5" )
+A: 0.2676951830389748
+R: 0.7360102014824699
+
+(TEST) Fold 1: FILA N°: 53 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 3 , sol1 = "9" )
+A: 0.9605064834807088
+R: 0.04157353119180074
+
+(TEST) Fold 1: FILA N°: 54 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 3 , sol1 = "8" )
+A: 0.6111795238912686
+R: 0.3851881557650071
+
+(TEST) Fold 1: FILA N°: 55 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 3 , sol1 = "8" )
+A: 0.7803487349944906
+R: 0.2266388090411211
+
+(TEST) Fold 1: FILA N°: 56 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998423340651857
+R: 0.00016162728765352664
+
+(TEST) Fold 1: FILA N°: 57 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 3 , sol1 = "8" )
+A: 0.852914164725717
+R: 0.14873700543441376
+
+(TEST) Fold 1: FILA N°: 58 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 3 , sol1 = "8" )
+A: 0.6264375742824624
+R: 0.39113887033394845
+
+(TEST) Fold 1: FILA N°: 59 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "7" )
+A: 0.9174948305500087
+R: 0.08418130743155622
+
+(TEST) Fold 1: FILA N°: 60 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 3 , sol1 = "9" )
+A: 0.8647963266404602
+R: 0.13564380675982535
+
+(TEST) Fold 1: FILA N°: 61 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 2 , sol1 = "8" )
+A: 0.9747573897457372
+R: 0.025923770557475953
+
+(TEST) Fold 1: FILA N°: 62 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "8" )
+A: 0.9400975319553443
+R: 0.05805897072043769
+
+(TEST) Fold 1: FILA N°: 63 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998547471468123
+R: 0.00013289544324146248
+
+(TEST) Fold 1: FILA N°: 64 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 3 , sol1 = "8" )
+A: 0.9864818346710502
+R: 0.013081787944107153
+
+(TEST) Fold 1: FILA N°: 65 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 4 , sol1 = "8" )
+A: 0.996396442358279
+R: 0.0035955944554051313
+
+(TEST) Fold 1: FILA N°: 66 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "7" )
+A: 0.9187541301482355
+R: 0.0879404310712898
+
+(TEST) Fold 1: FILA N°: 67 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998298649348175
+R: 0.0001559699499199346
+
+(TEST) Fold 1: FILA N°: 68 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 3 , sol1 = "6" )
+A: 0.41408123879026165
+R: 0.5868663416098971
+
+(TEST) Fold 1: FILA N°: 69 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9969313293138574
+R: 0.0033669050731118463
+
+(TEST) Fold 1: FILA N°: 70 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9969908138357932
+R: 0.003307149712675333
+
+(TEST) Fold 1: FILA N°: 71 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 4 , sol1 = "9" )
+A: 0.9990034489437816
+R: 0.0008969797769533558
+
+(TEST) Fold 1: FILA N°: 72 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 3 , sol1 = "6" )
+A: 0.5288166440344252
+R: 0.4622614526988764
+
+(TEST) Fold 1: FILA N°: 73 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "9" )
+A: 0.9951058168878321
+R: 0.004910760153065253
+
+(TEST) Fold 1: FILA N°: 74 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 5 , sol1 = "9" )
+A: 0.9836768757617862
+R: 0.017014689482125436
+
+(TEST) Fold 1: FILA N°: 75 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9968837028053025
+R: 0.0032474486677155504
+
+(TEST) Fold 1: FILA N°: 76 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "6" )
+A: 0.9202754306135906
+R: 0.07988487660567206
+
+(TEST) Fold 1: FILA N°: 77 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 3 , sol1 = "8" )
+A: 0.8505755929166641
+R: 0.14777406424639702
+
+(TEST) Fold 1: FILA N°: 78 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 3 , sol1 = "9" )
+A: 0.8591023457908898
+R: 0.13033849230220573
+
+(TEST) Fold 1: FILA N°: 79 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998693454065641
+R: 0.00015483987186271482
+
+(TEST) Fold 1: FILA N°: 80 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 2 , sol1 = "9" )
+A: 0.8130499686484661
+R: 0.19299187403147738
+
+(TEST) Fold 1: FILA N°: 81 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "9" )
+A: 0.9363699304621028
+R: 0.061052653155359085
+
+(TEST) Fold 1: FILA N°: 82 -> P(estado == "0") | (op1 = 0 , op6 = 0 , programa = 4 , sol1 = "9" )
+A: 0.9365844172214429
+R: 0.060407078061891994
+
+(TEST) Fold 1: FILA N°: 83 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 3 , sol1 = "9" )
+A: 0.9308772418960192
+R: 0.06494288043271751
+
+(TEST) Fold 1: FILA N°: 84 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 4 , sol1 = "8" )
+A: 0.9318851164257913
+R: 0.0657030555611102
+
+(TEST) Fold 1: FILA N°: 85 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 3 , sol1 = "9" )
+A: 0.996570046934295
+R: 0.003491084115374231
+
+(TEST) Fold 1: FILA N°: 86 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 3 , sol1 = "9" )
+A: 0.9968383661483742
+R: 0.0031981598881865555
+
+(TEST) Fold 1: FILA N°: 87 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "9" )
+A: 0.9959310295581174
+R: 0.004596285828839514
+
+(TEST) Fold 1: FILA N°: 88 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 5 , sol1 = "9" )
+A: 0.9957830160105706
+R: 0.0044146928441268244
+
+(TEST) Fold 1: FILA N°: 89 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 4 , sol1 = "9" )
+A: 0.9990618879767652
+R: 0.0009038283400100396
+
+(TEST) Fold 1: FILA N°: 90 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998474188970364
+R: 0.0001559699499199346
+
+(TEST) Fold 1: FILA N°: 91 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 3 , sol1 = "9" )
+A: 0.9612500814675117
+R: 0.04453972603020666
+
+(TEST) Fold 1: FILA N°: 92 -> P(estado == "0") | (op1 = 1 , op6 = 0 , programa = 3 , sol1 = "9" )
+A: 0.9582780123586139
+R: 0.03696370119819184
+
+(TEST) Fold 1: FILA N°: 93 -> P(estado == "0") | (op1 = 0 , op6 = 1 , programa = 3 , sol1 = "9" )
+A: 0.9260283734516801
+R: 0.0640110284989414
+
+(TEST) Fold 1: FILA N°: 94 -> P(estado == "0") | (op1 = 1 , op6 = 1 , programa = 5 , sol1 = "9" )
+A: 0.9998581228549
+R: 0.00013794404242635895
+

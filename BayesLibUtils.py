@@ -101,8 +101,15 @@ def getMetrics (y_true, y_pred, y_class, fold_type, fold_no, flagModel):
     varRocAuc = roc_auc_score(y_pred, y_true, multi_class='ovr')
     varRatio = sum(y_class)/len(y_class)
     
-    cnf_matrix = confusion_matrix(y_pred, y_true)
-    print(cnf_matrix)
+    # vn = Verdaderos Negativos
+    # fp = Falsos Positivos
+    # fn = Falsos Negativos
+    # vp = Verdaderos Positivos
+    # vn, fp, fn, vp = confusion_matrix(y_pred, y_true).ravel()
+    # print("vn: "+str(vn))
+    # print("fp: "+str(fp))
+    # print("fn: "+str(fn))
+    # print("vp: "+str(vp))
     
     print('RESULTADOS DEL ENTRENAMIENTO:')
     print('===============================================')
@@ -156,7 +163,6 @@ def modelToDataFrame(model, test):
     # Obteniendo la matriz de Source y Target del modelo
     vector = bn.adjmat2vec(model['adjmat'])
     col = []
-    
     # Se recorre el la matriz para obtener todas las columnas que esta matriz posee
     for columna in vector: #recorriendo las columnas
         if columna in ('weight'): 
@@ -165,22 +171,26 @@ def modelToDataFrame(model, test):
             for fila in vector.index: # recorriendo las filas
                 col.append(vector[columna][fila])
                        
-    # Se lista la lista dejando solo valores únicos        
-    vectorUnique = list(set(col))        
-
+    #Se lista la lista dejando solo valores únicos        
+    vectorUnique = list(set(col))    
+    
     # Buscando la columna que el modelo descarto para eliminarla del dataset
-    for j in range(len(test.columns.values)):   
+    borrarVar = []
+    for i in range(len(test.columns.values)):          
         x = -1
-        
-        for i in range(len(vectorUnique)):
-            if vectorUnique[i] == test.columns.values[j]: 
+        for j in range(len(vectorUnique)):
+            if test.columns.values[i] == vectorUnique[j]:
                 x = j
                 break
         
-        if x < 0:
-            print('COLUMNA ELIMINADA DE LA INFERENCIA: ', test.columns.values[j])
-            del(test[test.columns.values[j]])
-            break
+        if x == -1:
+            borrarVar.append(test.columns.values[i])
+            print('COLUMNA ELIMINADA DE LA INFERENCIA: ', test.columns.values[i])
+    
+    print(test)        
+    for z in range(len(borrarVar)):
+        del(test[borrarVar[z]])
+    print(test)
     
     return test    
 

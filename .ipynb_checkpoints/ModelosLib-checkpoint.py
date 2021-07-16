@@ -78,11 +78,11 @@ def modeloPython (df, clase, numSplits, score, balanceado, seleccionVariables):
      
     """
     
-    # indica cual va a ser el muestreo estratificado usando la clase "estado"
+    # indica cual va a ser el muestreo estratificado usando el parámetro "clase" 
     # cada fold mantiene la proporcion orignal de clases
     # n_splits = el numero de experimentos a realizar
     skf = StratifiedKFold(n_splits=numSplits, shuffle=True, random_state=1) 
-    target = df.loc[:, clase] # todas las filas de la columna "estado"
+    target = df.loc[:, clase] # todas las filas de la columna "clase"
 
     # toma inicial de tiempo del proceso completo
     start_time_full = time()  
@@ -273,11 +273,11 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
      
     """
 
-    # indica cual va a ser el muestreo estratificado usando la clase "estado"
+    # indica cual va a ser el muestreo estratificado usando el parámetro "clase"
     # cada fold mantiene la proporcion orignal de clases
     # n_splits = el numero de experimentos a realizar
     skf = StratifiedKFold(n_splits=numSplits, shuffle=True, random_state=1) 
-    target = df.loc[:, clase] # todas las filas de la columna "estado"
+    target = df.loc[:, clase] # todas las filas de la columna "clase"
    
     # toma inicial de tiempo del proceso completo
     start_time_full = time()  
@@ -364,11 +364,19 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
         # Entrega la porción de datos que serán usados como pruebas
         test = df.loc[test_index,:] #todas las columnas de la fila "test_index"
          
-        # Aprendiendo la estructura y los parametros de la porción de datos de pruebas
-        # modeloTest = blR.AprendizajeR(test, fold_no, "TEST", discreta, score, clase)
+        if seleccionVariables == 0:
+            # Aprendiendo la estructura y los parametros de la porción de datos de pruebas
+            # modeloTest = blR.AprendizajeR(test, fold_no, "TEST", discreta, score, clase)
 
-        # Realizando la inferencia de los datos de prueba utilizando el modelo aprendido
-        probTest = blR.probabilidadConjuntaR(modeloAprendido, test, fold_no, "TEST", discreta, clase)
+            # Realizando la inferencia de los datos de prueba
+            probTest = blR.probabilidadConjuntaR(modeloAprendido, test, fold_no, "TEST", discreta, clase)
+        else:
+            X_reducedTest = test[test.columns[selectK_mask]]
+            # Aprendiendo la estructura y los parametros de la porción de datos de pruebas
+            # modeloTest = blR.AprendizajeR(X_reducedTest, fold_no, "TEST", discreta, score, clase)
+
+            # Realizando la inferencia de los datos de prueba utilizando el modelo aprendido
+            probTest = blR.probabilidadConjuntaR(modeloAprendido, X_reducedTest, fold_no, "TEST", discreta, clase)
     
         # i = 0 
         # columna que queremos obtener
@@ -387,7 +395,7 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
         print("Tiempo estimado del fold "+str(fold_no)+": %0.10f seconds." % elapsed_time)
     
         # Cambiando de fold
-        # break
+        #break
         fold_no += 1
 
     # lapso de tiempo calculado del proceso completo

@@ -36,6 +36,8 @@ from rpy2.robjects import pandas2ri
 from rpy2.robjects.conversion import localconverter
 from rpy2.robjects.packages import importr
 from rpy2.robjects import globalenv
+from rpy2.robjects import StrVector
+
 
 # libreria BNLEARN que es un paquete de R para aprender la estructura gráfica de las redes bayesianas, estimar sus parámetros 
 # y realizar algunas inferencias útiles
@@ -47,7 +49,7 @@ bn1 = importr('bnlearn')
 from graphviz import Digraph
 
 
-def AprendizajeR(model, fold, tipo, discreta, score, clase):
+def AprendizajeR(model, fold, tipo, discreta, score, clase, lstBlanca, lstNegra):
     """ Aprendizaje de estructura y parámetros de BNLEARN en R
     
     Descripción
@@ -86,11 +88,15 @@ def AprendizajeR(model, fold, tipo, discreta, score, clase):
     # Convirtiendo el DataFrame Pandas a un DataFrame en R
     with localconverter(ro.default_converter + pandas2ri.converter):
         df_r = ro.conversion.py2rpy(model)
+        
+    #vectorR = ro.conversion.py2rpy(lstNegra)
     
     # Pasando el dataframe al ámbito R
     globalenv['df_r'] = df_r
     globalenv['puntuacion'] = score
     globalenv['clase'] = clase
+    globalenv['lstBlanca'] = StrVector(lstBlanca)
+    globalenv['lstNegra'] = StrVector(lstNegra)
     
     r('xclase = c("estado")')
    
@@ -112,13 +118,35 @@ def AprendizajeR(model, fold, tipo, discreta, score, clase):
     # -------------------------------------------
     #    Aprendiendo la estructura de los datos -
     # -------------------------------------------
-    #wl = r('matrix(c("tt", "game_score", "lt", "game_score", "pt", "game_score"), ncol = 2, byrow = TRUE)')
-    #bl = r('matrix(c("estado", "programa"), ncol = 2, byrow = TRUE)')
-    #globalenv['wl'] = wl
-    #globalenv['bl'] = bl
-    #dag = r('hc(na.omit(df_r), whitelist=wl, blacklist = bl, score=puntuacion)')
-    dag = r('hc(na.omit(df_r), score=puntuacion)')
     
+    # Convirtiendo vector Python de Lista Negra en Vector R
+    if len(lstBlanca) > 0:
+        r('vectorWl <- character()')
+        for e in range(len(lstBlanca)):
+            globalenv['e'] = e+1
+            r('vectorWl <- c(vectorWl,lstBlanca[e])')
+           
+        wl = r('matrix(vectorWl, ncol = 2, byrow = TRUE)')
+        globalenv['wl'] = wl
+    else:
+        globalenv['wl'] = r('NULL')
+        
+
+    # Convirtiendo vector Python de Lista Negra en Vector R
+    if len(lstNegra) > 0:
+        r('vectorBl <- character()')
+        for t in range(len(lstNegra)):
+            globalenv['t'] = t+1
+            r('vectorBl <- c(vectorBl,lstNegra[t])')
+           
+        bl = r('matrix(vectorBl, ncol = 2, byrow = TRUE)')
+        globalenv['bl'] = bl
+    else:
+        globalenv['bl'] = r('NULL')
+        
+    
+    dag = r('hc(na.omit(df_r), whitelist=wl, blacklist = bl, score=puntuacion)')
+   
     # Pasando la estructura aprendida DAG al ambito R
     globalenv['dag'] = dag  
     
@@ -146,9 +174,34 @@ def AprendizajeR(model, fold, tipo, discreta, score, clase):
     # ------------------------------------------------
     pdag = r('bn.fit(dag, data = df_r, method = "mle")')
     
+    #print(str(pdag[0][0][0]))
+    #print(str(pdag[0][1][0])) #
+    #print(str(pdag[0][2][0])) #nodos
+    #print(str(pdag[0][3][0]))
+    
     # Pasando los parametros aprendidos al ámbito R
     globalenv['pdag'] = pdag
     
+    #guardando los parametros aprendidos
+    filename =  "ExperimentosR\ParametrosCPD_"+tipo+"_"+str(fold)+".txt"
+    if os.path.exists(filename): 
+        file = open(filename, "a")
+    else:
+        file = open(filename, "w")
+
+    file.write(str(pdag))
+    #for nodo in range(len(pdag)):
+    #    file.write("nodo: " + str(pdag[nodo][0][0])+"\n")
+        
+    #    for anterior in range(len(pdag[nodo][1])):
+    #        file.write("nodo anterior: " + str(pdag[nodo][1][anterior])+"\n")
+        
+    #    for prob in range(len(pdag[nodo][3])):
+    #        file.write("probabilidad: " + str(pdag[nodo][3][prob])+"\n")
+    #    file.write("====================================================\n")
+
+    file.close()
+
     return pdag
 
 def probabilidadConjuntaR(model, test, fold, tipo, discreta, clase):
@@ -190,7 +243,7 @@ def probabilidadConjuntaR(model, test, fold, tipo, discreta, clase):
     #globalenv['clase'] = "\'"+clase+"\'"
 
     r('xclase = c("estado")')
-    print(r('xclase'))
+    
     # Transformando el dataframe a factores
     if discreta == True:
         r('df_test[] <- lapply(df_test, factor)')

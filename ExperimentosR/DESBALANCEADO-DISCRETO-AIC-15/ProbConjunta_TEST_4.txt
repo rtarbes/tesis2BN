@@ -1,0 +1,372 @@
+(TEST) Fold 4: FILA N°: 1 -> P(estado == "1") | (pt = "2",game_score = "1",op2 = "0",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "5",score_a = "4",score_p = "2",programa = "5",sol1 = "0")
+A: 0.0
+R: 1.0
+
+(TEST) Fold 4: FILA N°: 2 -> P(estado == "1") | (pt = "1",game_score = "1",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "4",programa = "2",sol1 = "0")
+A: 0.0
+R: 1.0
+
+(TEST) Fold 4: FILA N°: 3 -> P(estado == "1") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "5",score_p = "2",programa = "2",sol1 = "6")
+A: 0.8063147543437592
+R: 0.1955306733036816
+
+(TEST) Fold 4: FILA N°: 4 -> P(estado == "1") | (pt = "3",game_score = "2",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "2",score_p = "4",programa = "2",sol1 = "5")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 5 -> P(estado == "1") | (pt = "0",game_score = "0",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "3",score_p = "4",programa = "3",sol1 = "4")
+A: 0.7117292287740141
+R: 0.2839365801275975
+
+(TEST) Fold 4: FILA N°: 6 -> P(estado == "1") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "5",score_a = "3",score_p = "3",programa = "4",sol1 = "4")
+A: 0.6758554094657404
+R: 0.3205367936637673
+
+(TEST) Fold 4: FILA N°: 7 -> P(estado == "1") | (pt = "0",game_score = "2",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "0",sv6 = "0",score = "5",score_a = "4",score_p = "3",programa = "3",sol1 = "0")
+A: 0.0
+R: 1.0
+
+(TEST) Fold 4: FILA N°: 8 -> P(estado == "1") | (pt = "1",game_score = "1",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "4",programa = "2",sol1 = "9")
+A: 0.9892893426236447
+R: 0.008348275988514727
+
+(TEST) Fold 4: FILA N°: 9 -> P(estado == "1") | (pt = "1",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "11",score_a = "7",score_p = "5",programa = "4",sol1 = "8")
+A: 0.9416503940307203
+R: 0.06735607817163729
+
+(TEST) Fold 4: FILA N°: 10 -> P(estado == "1") | (pt = "2",game_score = "1",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "5",score_a = "3",score_p = "2",programa = "4",sol1 = "6")
+A: 0.8109857430818955
+R: 0.18449555479793325
+
+(TEST) Fold 4: FILA N°: 11 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "0",score = "8",score_a = "5",score_p = "4",programa = "4",sol1 = "5")
+A: 0.45929222384416235
+R: 0.5331380602752717
+
+(TEST) Fold 4: FILA N°: 12 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "0",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "3",score_a = "2",score_p = "0",programa = "5",sol1 = "3")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 13 -> P(estado == "0") | (pt = "0",game_score = "1",op2 = "0",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "0",score = "6",score_a = "3",score_p = "3",programa = "5",sol1 = "4")
+A: 0.7196772565042531
+R: 0.29105564800802153
+
+(TEST) Fold 4: FILA N°: 14 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "4",score_p = "1",programa = "4",sol1 = "6")
+A: 0.80066757567627
+R: 0.19748989796776922
+
+(TEST) Fold 4: FILA N°: 15 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "5",score_a = "2",score_p = "3",programa = "4",sol1 = "7")
+A: 0.9099086737942087
+R: 0.09345961936017332
+
+(TEST) Fold 4: FILA N°: 16 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "4",score_p = "4",programa = "4",sol1 = "8")
+A: 0.9390911833777276
+R: 0.06662703926430134
+
+(TEST) Fold 4: FILA N°: 17 -> P(estado == "0") | (pt = "6",game_score = "5",op2 = "0",op4 = "0",op5 = "0",sv1 = "0",sv4 = "0",sv5 = "0",sv6 = "0",score = "7",score_a = "4",score_p = "2",programa = "5",sol1 = "6")
+A: 0
+R: 0
+
+(TEST) Fold 4: FILA N°: 18 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "6",score_p = "3",programa = "5",sol1 = "6")
+A: 0.8246511499772482
+R: 0.17765412653058027
+
+(TEST) Fold 4: FILA N°: 19 -> P(estado == "0") | (pt = "4",game_score = "4",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "0",sv6 = "0",score = "6",score_a = "2",score_p = "4",programa = "4",sol1 = "5")
+A: nan
+R: nan
+
+(TEST) Fold 4: FILA N°: 20 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "5",score_a = "2",score_p = "2",programa = "4",sol1 = "5")
+A: 0.47434006927175704
+R: 0.5360274684344231
+
+(TEST) Fold 4: FILA N°: 21 -> P(estado == "0") | (pt = "2",game_score = "3",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "9",score_a = "5",score_p = "5",programa = "5",sol1 = "5")
+A: 0.4534056667090606
+R: 0.5395408741940847
+
+(TEST) Fold 4: FILA N°: 22 -> P(estado == "0") | (pt = "2",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "9",score_a = "7",score_p = "2",programa = "5",sol1 = "7")
+A: 0.9195839345584179
+R: 0.07722170997207306
+
+(TEST) Fold 4: FILA N°: 23 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "3",score_p = "4",programa = "3",sol1 = "7")
+A: 0.9097882984778992
+R: 0.086959507835316
+
+(TEST) Fold 4: FILA N°: 24 -> P(estado == "0") | (pt = "0",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "0",sv6 = "1",score = "8",score_a = "5",score_p = "3",programa = "2",sol1 = "9")
+A: 0.9947406818114097
+R: 0.007083092264725051
+
+(TEST) Fold 4: FILA N°: 25 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "3",score_a = "3",score_p = "0",programa = "5",sol1 = "7")
+A: 0.9143666877667054
+R: 0.09129481547915427
+
+(TEST) Fold 4: FILA N°: 26 -> P(estado == "0") | (pt = "2",game_score = "1",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "4",score_p = "3",programa = "5",sol1 = "9")
+A: 0.9926112226538376
+R: 0.008507265592421117
+
+(TEST) Fold 4: FILA N°: 27 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "5",score_p = "3",programa = "3",sol1 = "9")
+A: 0.991527332720502
+R: 0.0072284770351037295
+
+(TEST) Fold 4: FILA N°: 28 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "6",score_p = "3",programa = "5",sol1 = "9")
+A: 0.9924878508205701
+R: 0.007083092264725051
+
+(TEST) Fold 4: FILA N°: 29 -> P(estado == "0") | (pt = "2",game_score = "2",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "3",score_p = "3",programa = "5",sol1 = "6")
+A: 0.8160426843261315
+R: 0.1808342756396973
+
+(TEST) Fold 4: FILA N°: 30 -> P(estado == "0") | (pt = "0",game_score = "1",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "5",score_p = "3",programa = "4",sol1 = "7")
+A: 0.9219319098715798
+R: 0.07913025100389129
+
+(TEST) Fold 4: FILA N°: 31 -> P(estado == "0") | (pt = "2",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "3",score_p = "4",programa = "4",sol1 = "8")
+A: 0.9423229304325398
+R: 0.05623832350457753
+
+(TEST) Fold 4: FILA N°: 32 -> P(estado == "0") | (pt = "3",game_score = "3",op2 = "0",op4 = "1",op5 = "0",sv1 = "0",sv4 = "1",sv5 = "0",sv6 = "0",score = "5",score_a = "3",score_p = "2",programa = "4",sol1 = "5")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 33 -> P(estado == "0") | (pt = "3",game_score = "4",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "0",score = "5",score_a = "4",score_p = "2",programa = "5",sol1 = "6")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 34 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "9",score_a = "6",score_p = "5",programa = "4",sol1 = "7")
+A: 0.9277765800427867
+R: 0.0800860626344729
+
+(TEST) Fold 4: FILA N°: 35 -> P(estado == "0") | (pt = "0",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "0",sv6 = "0",score = "10",score_a = "7",score_p = "5",programa = "4",sol1 = "6")
+A: 0.8288444549885826
+R: 0.1778636604971049
+
+(TEST) Fold 4: FILA N°: 36 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "0",score = "6",score_a = "4",score_p = "1",programa = "5",sol1 = "8")
+A: 0.9359262842870323
+R: 0.06492511535142434
+
+(TEST) Fold 4: FILA N°: 37 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "5",score_a = "3",score_p = "3",programa = "5",sol1 = "8")
+A: 0.9320365529558146
+R: 0.06383040504950019
+
+(TEST) Fold 4: FILA N°: 38 -> P(estado == "0") | (pt = "0",game_score = "1",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "5",score_p = "3",programa = "4",sol1 = "8")
+A: 0.945125788723989
+R: 0.055513568759524894
+
+(TEST) Fold 4: FILA N°: 39 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "4",score_p = "3",programa = "5",sol1 = "9")
+A: 0.9932693716819598
+R: 0.00797506514311881
+
+(TEST) Fold 4: FILA N°: 40 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "4",score_p = "4",programa = "2",sol1 = "8")
+A: 0.9464046727423046
+R: 0.05934853077074089
+
+(TEST) Fold 4: FILA N°: 41 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "5",programa = "4",sol1 = "7")
+A: 0.9253318716345291
+R: 0.07626205912342156
+
+(TEST) Fold 4: FILA N°: 42 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "3",programa = "5",sol1 = "8")
+A: 0.9305794739430205
+R: 0.06565465418517313
+
+(TEST) Fold 4: FILA N°: 43 -> P(estado == "0") | (pt = "3",game_score = "1",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "4",score_p = "4",programa = "4",sol1 = "9")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 44 -> P(estado == "0") | (pt = "3",game_score = "2",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "6",score_a = "6",score_p = "2",programa = "4",sol1 = "8")
+A: nan
+R: nan
+
+(TEST) Fold 4: FILA N°: 45 -> P(estado == "0") | (pt = "2",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "3",score_p = "5",programa = "2",sol1 = "6")
+A: 0.8139977135245543
+R: 0.17382658399509565
+
+(TEST) Fold 4: FILA N°: 46 -> P(estado == "0") | (pt = "0",game_score = "1",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "10",score_a = "6",score_p = "5",programa = "3",sol1 = "9")
+A: 0.9919515652403719
+R: 0.006868554323088597
+
+(TEST) Fold 4: FILA N°: 47 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "5",score_p = "4",programa = "3",sol1 = "9")
+A: 0.993024175915707
+R: 0.008799168195123065
+
+(TEST) Fold 4: FILA N°: 48 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "5",programa = "3",sol1 = "8")
+A: 0.9309436634805901
+R: 0.06370874077825922
+
+(TEST) Fold 4: FILA N°: 49 -> P(estado == "0") | (pt = "2",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "5",score_p = "3",programa = "5",sol1 = "8")
+A: 0.9438723678121792
+R: 0.058340955257532426
+
+(TEST) Fold 4: FILA N°: 50 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "0",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "10",score_a = "7",score_p = "4",programa = "5",sol1 = "7")
+A: 0.9171419426177035
+R: 0.08936895111137974
+
+(TEST) Fold 4: FILA N°: 51 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "1",score_a = "1",score_p = "1",programa = "4",sol1 = "9")
+A: nan
+R: nan
+
+(TEST) Fold 4: FILA N°: 52 -> P(estado == "0") | (pt = "2",game_score = "2",op2 = "0",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "12",score_a = "8",score_p = "5",programa = "4",sol1 = "8")
+A: 0.9428762413294738
+R: 0.06033204054345025
+
+(TEST) Fold 4: FILA N°: 53 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "4",score_p = "5",programa = "5",sol1 = "9")
+A: 0.9927715229648962
+R: 0.007726227097904025
+
+(TEST) Fold 4: FILA N°: 54 -> P(estado == "0") | (pt = "3",game_score = "3",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "0",sv6 = "0",score = "6",score_a = "2",score_p = "3",programa = "4",sol1 = "8")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 55 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "3",programa = "4",sol1 = "9")
+A: 0.9927715229648962
+R: 0.006979565010187905
+
+(TEST) Fold 4: FILA N°: 56 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "9",score_a = "5",score_p = "5",programa = "3",sol1 = "8")
+A: 0.9392129908160712
+R: 0.06772051733307964
+
+(TEST) Fold 4: FILA N°: 57 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "0",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "10",score_a = "7",score_p = "4",programa = "4",sol1 = "9")
+A: 0.9902837586072761
+R: 0.007104024105820644
+
+(TEST) Fold 4: FILA N°: 58 -> P(estado == "0") | (pt = "2",game_score = "2",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "5",score_a = "5",score_p = "1",programa = "5",sol1 = "6")
+A: 0.8212130138307381
+R: 0.18180372379147272
+
+(TEST) Fold 4: FILA N°: 59 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "9",score_a = "7",score_p = "3",programa = "4",sol1 = "9")
+A: 0.9933459899417766
+R: 0.007190358864419853
+
+(TEST) Fold 4: FILA N°: 60 -> P(estado == "0") | (pt = "3",game_score = "3",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "0",sv6 = "0",score = "5",score_a = "2",score_p = "3",programa = "5",sol1 = "7")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 61 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "2",score_p = "4",programa = "5",sol1 = "9")
+A: 0.9934532644455073
+R: 0.00826293792850277
+
+(TEST) Fold 4: FILA N°: 62 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "4",score_p = "2",programa = "5",sol1 = "6")
+A: 0.8037776542969418
+R: 0.19333907114251211
+
+(TEST) Fold 4: FILA N°: 63 -> P(estado == "0") | (pt = "0",game_score = "1",op2 = "0",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "0",score = "8",score_a = "6",score_p = "4",programa = "4",sol1 = "8")
+A: 0.9410774760085078
+R: 0.05498077476944734
+
+(TEST) Fold 4: FILA N°: 64 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "0",score = "8",score_a = "4",score_p = "5",programa = "3",sol1 = "9")
+A: 0.9906567661747046
+R: 0.00909453132389915
+
+(TEST) Fold 4: FILA N°: 65 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "4",programa = "2",sol1 = "8")
+A: 0.9382386984542677
+R: 0.0634653943545731
+
+(TEST) Fold 4: FILA N°: 66 -> P(estado == "0") | (pt = "2",game_score = "2",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "0",score = "5",score_a = "3",score_p = "4",programa = "4",sol1 = "9")
+A: 0.9919400974138807
+R: 0.006717555210951299
+
+(TEST) Fold 4: FILA N°: 67 -> P(estado == "0") | (pt = "3",game_score = "4",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "4",score_a = "3",score_p = "2",programa = "5",sol1 = "9")
+A: 1.0
+R: 0.0
+
+(TEST) Fold 4: FILA N°: 68 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "0",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "9",score_a = "7",score_p = "3",programa = "5",sol1 = "9")
+A: 0.9916517240114853
+R: 0.00797506514311881
+
+(TEST) Fold 4: FILA N°: 69 -> P(estado == "0") | (pt = "2",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "4",score_a = "3",score_p = "2",programa = "5",sol1 = "9")
+A: 0.9909335911866555
+R: 0.008059902586119326
+
+(TEST) Fold 4: FILA N°: 70 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "0",score = "10",score_a = "7",score_p = "4",programa = "4",sol1 = "9")
+A: 0.992273772902096
+R: 0.008597052409169944
+
+(TEST) Fold 4: FILA N°: 71 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "1",sv6 = "1",score = "6",score_a = "3",score_p = "4",programa = "4",sol1 = "8")
+A: 0.9326439218283628
+R: 0.06577622315186014
+
+(TEST) Fold 4: FILA N°: 72 -> P(estado == "0") | (pt = "2",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "4",score_p = "2",programa = "4",sol1 = "9")
+A: 0.9914927344075789
+R: 0.007612496524584556
+
+(TEST) Fold 4: FILA N°: 73 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "11",score_a = "7",score_p = "5",programa = "3",sol1 = "8")
+A: 0.9394800795909886
+R: 0.055513568759524894
+
+(TEST) Fold 4: FILA N°: 74 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "3",programa = "5",sol1 = "6")
+A: 0.8237079930315306
+R: 0.17608242722074138
+
+(TEST) Fold 4: FILA N°: 75 -> P(estado == "0") | (pt = "1",game_score = "1",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "4",score_p = "2",programa = "3",sol1 = "9")
+A: 0.9920249348568811
+R: 0.008721431377988344
+
+(TEST) Fold 4: FILA N°: 76 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "5",score_a = "3",score_p = "2",programa = "5",sol1 = "9")
+A: 0.9927715229648962
+R: 0.008223878535762352
+
+(TEST) Fold 4: FILA N°: 77 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "0",score = "5",score_a = "4",score_p = "3",programa = "5",sol1 = "9")
+A: 0.9923982011705625
+R: 0.00847266727949799
+
+(TEST) Fold 4: FILA N°: 78 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "9",score_a = "6",score_p = "4",programa = "3",sol1 = "9")
+A: 0.9922733318469428
+R: 0.006761282981077049
+
+(TEST) Fold 4: FILA N°: 79 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "0",sv6 = "1",score = "10",score_a = "6",score_p = "5",programa = "5",sol1 = "8")
+A: 0.944379877137639
+R: 0.05348874341369953
+
+(TEST) Fold 4: FILA N°: 80 -> P(estado == "0") | (pt = "2",game_score = "1",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "10",score_a = "7",score_p = "4",programa = "3",sol1 = "9")
+A: 0.9923875034754155
+R: 0.008283589470785897
+
+(TEST) Fold 4: FILA N°: 81 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "7",score_a = "6",score_p = "2",programa = "5",sol1 = "8")
+A: 0.9461915097511822
+R: 0.05391506939601331
+
+(TEST) Fold 4: FILA N°: 82 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "0",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "5",score_a = "2",score_p = "3",programa = "2",sol1 = "7")
+A: 0.9202325272274696
+R: 0.07498694257218884
+
+(TEST) Fold 4: FILA N°: 83 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "10",score_a = "7",score_p = "5",programa = "3",sol1 = "9")
+A: 0.9919515652403719
+R: 0.008048434759628081
+
+(TEST) Fold 4: FILA N°: 84 -> P(estado == "0") | (pt = "2",game_score = "2",op2 = "1",op4 = "1",op5 = "1",sv1 = "0",sv4 = "1",sv5 = "1",sv6 = "0",score = "5",score_a = "2",score_p = "3",programa = "5",sol1 = "9")
+A: 0.9929468216082249
+R: 0.0079480551074065
+
+(TEST) Fold 4: FILA N°: 85 -> P(estado == "0") | (pt = "3",game_score = "3",op2 = "0",op4 = "0",op5 = "0",sv1 = "1",sv4 = "0",sv5 = "0",sv6 = "0",score = "8",score_a = "4",score_p = "4",programa = "1",sol1 = "9")
+A: nan
+R: nan
+
+(TEST) Fold 4: FILA N°: 86 -> P(estado == "0") | (pt = "0",game_score = "0",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "0",score = "10",score_a = "6",score_p = "5",programa = "4",sol1 = "9")
+A: 0.9918443128657406
+R: 0.007941180804573919
+
+(TEST) Fold 4: FILA N°: 87 -> P(estado == "0") | (pt = "1",game_score = "0",op2 = "1",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "3",score_p = "3",programa = "3",sol1 = "9")
+A: 0.9917761214642377
+R: 0.009964882319901593
+
+(TEST) Fold 4: FILA N°: 88 -> P(estado == "0") | (pt = "0",game_score = "1",op2 = "1",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "8",score_a = "5",score_p = "4",programa = "3",sol1 = "9")
+A: 0.9927023761165877
+R: 0.007726668153057228
+
+(TEST) Fold 4: FILA N°: 89 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "1",op4 = "1",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "9",score_a = "5",score_p = "5",programa = "5",sol1 = "9")
+A: 0.9902837586072761
+R: 0.008970170834895302
+
+(TEST) Fold 4: FILA N°: 90 -> P(estado == "0") | (pt = "0",game_score = "1",op2 = "0",op4 = "1",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "6",score_a = "4",score_p = "2",programa = "5",sol1 = "9")
+A: 0.9922733318469428
+R: 0.006868554323088597
+
+(TEST) Fold 4: FILA N°: 91 -> P(estado == "0") | (pt = "2",game_score = "1",op2 = "0",op4 = "0",op5 = "1",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "10",score_a = "6",score_p = "5",programa = "2",sol1 = "9")
+A: 0.9921637950623555
+R: 0.00694130669012296
+
+(TEST) Fold 4: FILA N°: 92 -> P(estado == "0") | (pt = "1",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "1",sv6 = "1",score = "9",score_a = "6",score_p = "4",programa = "5",sol1 = "9")
+A: 0.9921493507976882
+R: 0.007601798829437424
+
+(TEST) Fold 4: FILA N°: 93 -> P(estado == "0") | (pt = "3",game_score = "2",op2 = "1",op4 = "0",op5 = "0",sv1 = "1",sv4 = "1",sv5 = "0",sv6 = "1",score = "9",score_a = "5",score_p = "4",programa = "3",sol1 = "9")
+A: 1.0
+R: 0.0
+

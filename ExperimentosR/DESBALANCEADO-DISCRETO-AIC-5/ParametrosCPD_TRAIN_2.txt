@@ -1,0 +1,64 @@
+
+  Bayesian network parameters
+
+  Parameters of node game_score (multinomial distribution)
+
+Conditional probability table:
+           0           1           2           3           4           5 
+0.351206434 0.340482574 0.222520107 0.058981233 0.024128686 0.002680965 
+
+  Parameters of node sv6 (multinomial distribution)
+
+Conditional probability table:
+ 
+   game_score
+sv6          0          1          2          3          4          5
+  0 0.05343511 0.18110236 0.32530120 0.59090909 0.44444444 1.00000000
+  1 0.94656489 0.81889764 0.67469880 0.40909091 0.55555556 0.00000000
+
+  Parameters of node programa (multinomial distribution)
+
+Conditional probability table:
+ 
+, , estado = 0
+
+        sv6
+programa          0          1
+       1 0.01408451 0.00000000
+       2 0.07042254 0.05323194
+       3 0.09859155 0.26615970
+       4 0.35211268 0.26235741
+       5 0.46478873 0.41825095
+
+, , estado = 1
+
+        sv6
+programa          0          1
+       1 0.00000000 0.00000000
+       2 0.00000000 0.20000000
+       3 0.75000000 0.11428571
+       4 0.25000000 0.48571429
+       5 0.00000000 0.20000000
+
+
+  Parameters of node sol1 (multinomial distribution)
+
+Conditional probability table:
+           0           1           3           4           5           6 
+0.024128686 0.008042895 0.005361930 0.032171582 0.069705094 0.099195710 
+          7           8           9 
+0.126005362 0.235924933 0.399463807 
+
+  Parameters of node estado (multinomial distribution)
+
+Conditional probability table:
+ 
+      sol1
+estado           0           1           3           4           5           6
+     0 0.000000000 0.666666667 1.000000000 0.666666667 0.615384615 0.810810811
+     1 1.000000000 0.333333333 0.000000000 0.333333333 0.384615385 0.189189189
+      sol1
+estado           7           8           9
+     0 0.936170213 0.954545455 0.993288591
+     1 0.063829787 0.045454545 0.006711409
+

@@ -1,744 +1,744 @@
-FILA N°: 15 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":1.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":3, "score_p":1, "score_d":3, "score_s":3, "programa":4, "sol1":5.0}]
+FILA N°: 15 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":3, "score_p":1, "score_d":3, "score_s":3, "programa":4, "sol1":5.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5185 |
+| estado(0) |        0.1993 |
 +-----------+---------------+
-| estado(1) |        0.4815 |
+| estado(1) |        0.8007 |
 +-----------+---------------+
-FILA N°: 20 -> P("estado" | [{"lt":2.0, "tt":1.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":0, "op3":0, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":3, "score_a":2, "score_p":2, "score_d":0, "score_s":0, "programa":4, "sol1":5.0}]
+FILA N°: 20 -> P("estado" | [{"lt":2.0, "op1":0, "op2":0, "op3":0, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":3, "score_a":2, "score_p":2, "score_d":0, "score_s":0, "programa":4, "sol1":5.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5185 |
+| estado(0) |        0.5504 |
 +-----------+---------------+
-| estado(1) |        0.4815 |
+| estado(1) |        0.4496 |
 +-----------+---------------+
-FILA N°: 28 -> P("estado" | [{"lt":0.0, "tt":2.0, "pt":1.0, "game_score":1.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":2, "score_s":3, "programa":4, "sol1":9.0}]
+FILA N°: 28 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":2, "score_s":3, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7803 |
+| estado(0) |        0.9312 |
 +-----------+---------------+
-| estado(1) |        0.2197 |
+| estado(1) |        0.0688 |
 +-----------+---------------+
-FILA N°: 29 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":3, "sol1":5.0}]
+FILA N°: 29 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":3, "sol1":5.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5740 |
+| estado(0) |        0.2391 |
 +-----------+---------------+
-| estado(1) |        0.4260 |
+| estado(1) |        0.7609 |
 +-----------+---------------+
-FILA N°: 33 -> P("estado" | [{"lt":2.0, "tt":0.0, "pt":2.0, "game_score":2.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":0, "score":4, "score_a":3, "score_p":1, "score_d":1, "score_s":1, "programa":5, "sol1":8.0}]
+FILA N°: 33 -> P("estado" | [{"lt":2.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":0, "score":4, "score_a":3, "score_p":1, "score_d":1, "score_s":1, "programa":5, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7548 |
+| estado(0) |        0.9964 |
 +-----------+---------------+
-| estado(1) |        0.2452 |
+| estado(1) |        0.0036 |
 +-----------+---------------+
-FILA N°: 40 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":0.0, "op1":0, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":9, "score_a":5, "score_p":5, "score_d":3, "score_s":3, "programa":5, "sol1":7.0}]
+FILA N°: 40 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":9, "score_a":5, "score_p":5, "score_d":3, "score_s":3, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9993 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0007 |
 +-----------+---------------+
-FILA N°: 42 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":11, "score_a":7, "score_p":5, "score_d":4, "score_s":3, "programa":4, "sol1":5.0}]
+FILA N°: 42 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":11, "score_a":7, "score_p":5, "score_d":4, "score_s":3, "programa":4, "sol1":5.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5185 |
+| estado(0) |        0.7065 |
 +-----------+---------------+
-| estado(1) |        0.4815 |
+| estado(1) |        0.2935 |
 +-----------+---------------+
-FILA N°: 44 -> P("estado" | [{"lt":3.0, "tt":0.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":5, "score_a":3, "score_p":1, "score_d":2, "score_s":2, "programa":3, "sol1":8.0}]
+FILA N°: 44 -> P("estado" | [{"lt":3.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":5, "score_a":3, "score_p":1, "score_d":2, "score_s":2, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6660 |
+| estado(0) |        0.9663 |
 +-----------+---------------+
-| estado(1) |        0.3340 |
+| estado(1) |        0.0337 |
 +-----------+---------------+
-FILA N°: 47 -> P("estado" | [{"lt":2.0, "tt":2.0, "pt":2.0, "game_score":2.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":5, "score_a":4, "score_p":1, "score_d":3, "score_s":3, "programa":3, "sol1":4.0}]
+FILA N°: 47 -> P("estado" | [{"lt":2.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":5, "score_a":4, "score_p":1, "score_d":3, "score_s":3, "programa":3, "sol1":4.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.4759 |
+| estado(0) |        0.6227 |
 +-----------+---------------+
-| estado(1) |        0.5241 |
+| estado(1) |        0.3773 |
 +-----------+---------------+
-FILA N°: 73 -> P("estado" | [{"lt":3.0, "tt":0.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":9, "score_a":6, "score_p":3, "score_d":3, "score_s":2, "programa":5, "sol1":9.0}]
+FILA N°: 73 -> P("estado" | [{"lt":3.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":9, "score_a":6, "score_p":3, "score_d":3, "score_s":2, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9777 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0223 |
 +-----------+---------------+
-FILA N°: 74 -> P("estado" | [{"lt":1.0, "tt":1.0, "pt":0.0, "game_score":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":1, "score":3, "score_a":2, "score_p":1, "score_d":1, "score_s":2, "programa":4, "sol1":8.0}]
+FILA N°: 74 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":1, "score":3, "score_a":2, "score_p":1, "score_d":1, "score_s":2, "programa":4, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6981 |
+| estado(0) |        0.9108 |
 +-----------+---------------+
-| estado(1) |        0.3019 |
+| estado(1) |        0.0892 |
 +-----------+---------------+
-FILA N°: 80 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":3.0, "game_score":2.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":9, "score_a":5, "score_p":4, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
+FILA N°: 80 -> P("estado" | [{"lt":1.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":9, "score_a":5, "score_p":4, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6981 |
+| estado(0) |        0.9905 |
 +-----------+---------------+
-| estado(1) |        0.3019 |
+| estado(1) |        0.0095 |
 +-----------+---------------+
-FILA N°: 81 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":4, "score_d":3, "score_s":3, "programa":4, "sol1":7.0}]
+FILA N°: 81 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":4, "score_d":3, "score_s":3, "programa":4, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6265 |
+| estado(0) |        0.6135 |
 +-----------+---------------+
-| estado(1) |        0.3735 |
+| estado(1) |        0.3865 |
 +-----------+---------------+
-FILA N°: 82 -> P("estado" | [{"lt":0.0, "tt":2.0, "pt":2.0, "game_score":1.0, "op1":1, "op2":0, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":3, "score_p":1, "score_d":1, "score_s":1, "programa":5, "sol1":7.0}]
+FILA N°: 82 -> P("estado" | [{"lt":0.0, "op1":1, "op2":0, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":3, "score_p":1, "score_d":1, "score_s":1, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9477 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0523 |
 +-----------+---------------+
-FILA N°: 98 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":3.0, "game_score":2.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":3, "score_d":1, "score_s":2, "programa":5, "sol1":8.0}]
+FILA N°: 98 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":3, "score_d":1, "score_s":2, "programa":5, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7851 |
+| estado(0) |        0.3195 |
 +-----------+---------------+
-| estado(1) |        0.2149 |
+| estado(1) |        0.6805 |
 +-----------+---------------+
-FILA N°: 106 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":2.0, "game_score":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":3, "score_a":2, "score_p":0, "score_d":2, "score_s":1, "programa":5, "sol1":7.0}]
+FILA N°: 106 -> P("estado" | [{"lt":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":3, "score_a":2, "score_p":0, "score_d":2, "score_s":1, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9940 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0060 |
 +-----------+---------------+
-FILA N°: 107 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":1.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":6, "score_p":3, "score_d":3, "score_s":3, "programa":5, "sol1":6.0}]
+FILA N°: 107 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":6, "score_p":3, "score_d":3, "score_s":3, "programa":5, "sol1":6.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6808 |
+| estado(0) |        0.9886 |
 +-----------+---------------+
-| estado(1) |        0.3192 |
+| estado(1) |        0.0114 |
 +-----------+---------------+
-FILA N°: 109 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":7.0}]
+FILA N°: 109 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6773 |
+| estado(0) |        0.7103 |
 +-----------+---------------+
-| estado(1) |        0.3227 |
+| estado(1) |        0.2897 |
 +-----------+---------------+
-FILA N°: 115 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":4, "score_d":1, "score_s":2, "programa":4, "sol1":6.0}]
+FILA N°: 115 -> P("estado" | [{"lt":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":4, "score_d":1, "score_s":2, "programa":4, "sol1":6.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5744 |
+| estado(0) |        0.2954 |
 +-----------+---------------+
-| estado(1) |        0.4256 |
+| estado(1) |        0.7046 |
 +-----------+---------------+
-FILA N°: 117 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":5, "sol1":8.0}]
+FILA N°: 117 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":5, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7851 |
+| estado(0) |        0.9988 |
 +-----------+---------------+
-| estado(1) |        0.2149 |
+| estado(1) |        0.0012 |
 +-----------+---------------+
-FILA N°: 126 -> P("estado" | [{"lt":1.0, "tt":1.0, "pt":0.0, "game_score":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":6, "score_a":4, "score_p":4, "score_d":1, "score_s":0, "programa":1, "sol1":9.0}]
+FILA N°: 126 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":6, "score_a":4, "score_p":4, "score_d":1, "score_s":0, "programa":1, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6666 |
+| estado(0) |        0.9943 |
 +-----------+---------------+
-| estado(1) |        0.3334 |
+| estado(1) |        0.0057 |
 +-----------+---------------+
-FILA N°: 146 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":2, "programa":3, "sol1":8.0}]
+FILA N°: 146 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":2, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7431 |
+| estado(0) |        0.9432 |
 +-----------+---------------+
-| estado(1) |        0.2569 |
+| estado(1) |        0.0568 |
 +-----------+---------------+
-FILA N°: 154 -> P("estado" | [{"lt":0.0, "tt":3.0, "pt":1.0, "game_score":1.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":3, "score_d":2, "score_s":3, "programa":4, "sol1":8.0}]
+FILA N°: 154 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":3, "score_d":2, "score_s":3, "programa":4, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6981 |
+| estado(0) |        0.9914 |
 +-----------+---------------+
-| estado(1) |        0.3019 |
+| estado(1) |        0.0086 |
 +-----------+---------------+
-FILA N°: 161 -> P("estado" | [{"lt":0.0, "tt":3.0, "pt":2.0, "game_score":2.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":3, "score_p":5, "score_d":1, "score_s":1, "programa":5, "sol1":5.0}]
+FILA N°: 161 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":3, "score_p":5, "score_d":1, "score_s":1, "programa":5, "sol1":5.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6299 |
+| estado(0) |        0.7710 |
 +-----------+---------------+
-| estado(1) |        0.3701 |
+| estado(1) |        0.2290 |
 +-----------+---------------+
-FILA N°: 162 -> P("estado" | [{"lt":1.0, "tt":3.0, "pt":4.0, "game_score":4.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":0, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":4, "score_d":3, "score_s":3, "programa":4, "sol1":6.0}]
+FILA N°: 162 -> P("estado" | [{"lt":1.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":0, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":4, "score_d":3, "score_s":3, "programa":4, "sol1":6.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5744 |
+| estado(0) |        0.2530 |
 +-----------+---------------+
-| estado(1) |        0.4256 |
+| estado(1) |        0.7470 |
 +-----------+---------------+
-FILA N°: 163 -> P("estado" | [{"lt":1.0, "tt":1.0, "pt":2.0, "game_score":1.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":2, "score_p":1, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
+FILA N°: 163 -> P("estado" | [{"lt":1.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":2, "score_p":1, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7803 |
+| estado(0) |        0.9892 |
 +-----------+---------------+
-| estado(1) |        0.2197 |
+| estado(1) |        0.0108 |
 +-----------+---------------+
-FILA N°: 170 -> P("estado" | [{"lt":2.0, "tt":3.0, "pt":2.0, "game_score":3.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":6, "score_a":3, "score_p":5, "score_d":0, "score_s":0, "programa":3, "sol1":8.0}]
+FILA N°: 170 -> P("estado" | [{"lt":2.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":6, "score_a":3, "score_p":5, "score_d":0, "score_s":0, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6660 |
+| estado(0) |        0.9773 |
 +-----------+---------------+
-| estado(1) |        0.3340 |
+| estado(1) |        0.0227 |
 +-----------+---------------+
-FILA N°: 171 -> P("estado" | [{"lt":3.0, "tt":1.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":2, "score_a":2, "score_p":1, "score_d":0, "score_s":1, "programa":5, "sol1":7.0}]
+FILA N°: 171 -> P("estado" | [{"lt":3.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":2, "score_a":2, "score_p":1, "score_d":0, "score_s":1, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9794 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0206 |
 +-----------+---------------+
-FILA N°: 172 -> P("estado" | [{"lt":1.0, "tt":2.0, "pt":2.0, "game_score":2.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":10, "score_a":7, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":8.0}]
+FILA N°: 172 -> P("estado" | [{"lt":1.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":10, "score_a":7, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7851 |
+| estado(0) |        0.9852 |
 +-----------+---------------+
-| estado(1) |        0.2149 |
+| estado(1) |        0.0148 |
 +-----------+---------------+
-FILA N°: 174 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":4, "sol1":7.0}]
+FILA N°: 174 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":4, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6265 |
+| estado(0) |        0.7807 |
 +-----------+---------------+
-| estado(1) |        0.3735 |
+| estado(1) |        0.2193 |
 +-----------+---------------+
-FILA N°: 178 -> P("estado" | [{"lt":3.0, "tt":1.0, "pt":3.0, "game_score":3.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":10, "score_a":6, "score_p":4, "score_d":4, "score_s":4, "programa":3, "sol1":7.0}]
+FILA N°: 178 -> P("estado" | [{"lt":3.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":10, "score_a":6, "score_p":4, "score_d":4, "score_s":4, "programa":3, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5913 |
+| estado(0) |        0.7845 |
 +-----------+---------------+
-| estado(1) |        0.4087 |
+| estado(1) |        0.2155 |
 +-----------+---------------+
-FILA N°: 183 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":4, "score_d":2, "score_s":3, "programa":5, "sol1":7.0}]
+FILA N°: 183 -> P("estado" | [{"lt":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":4, "score_d":2, "score_s":3, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9871 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0129 |
 +-----------+---------------+
-FILA N°: 184 -> P("estado" | [{"lt":2.0, "tt":2.0, "pt":1.0, "game_score":2.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":2, "sol1":8.0}]
+FILA N°: 184 -> P("estado" | [{"lt":2.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":2, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6710 |
+| estado(0) |        0.9988 |
 +-----------+---------------+
-| estado(1) |        0.3290 |
+| estado(1) |        0.0012 |
 +-----------+---------------+
-FILA N°: 193 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":1.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":1, "score_s":2, "programa":5, "sol1":6.0}]
+FILA N°: 193 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":1, "score_s":2, "programa":5, "sol1":6.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6808 |
+| estado(0) |        0.2640 |
 +-----------+---------------+
-| estado(1) |        0.3192 |
+| estado(1) |        0.7360 |
 +-----------+---------------+
-FILA N°: 199 -> P("estado" | [{"lt":3.0, "tt":1.0, "pt":1.0, "game_score":2.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":2, "score_a":1, "score_p":1, "score_d":1, "score_s":1, "programa":5, "sol1":9.0}]
+FILA N°: 199 -> P("estado" | [{"lt":3.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":2, "score_a":1, "score_p":1, "score_d":1, "score_s":1, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9914 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0086 |
 +-----------+---------------+
-FILA N°: 204 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":2.0, "game_score":1.0, "op1":0, "op2":1, "op3":1, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":4, "score_p":1, "score_d":4, "score_s":3, "programa":4, "sol1":7.0}]
+FILA N°: 204 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":4, "score_p":1, "score_d":4, "score_s":3, "programa":4, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6265 |
+| estado(0) |        0.8276 |
 +-----------+---------------+
-| estado(1) |        0.3735 |
+| estado(1) |        0.1724 |
 +-----------+---------------+
-FILA N°: 207 -> P("estado" | [{"lt":1.0, "tt":4.0, "pt":3.0, "game_score":3.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":5, "score_a":4, "score_p":1, "score_d":3, "score_s":3, "programa":2, "sol1":9.0}]
+FILA N°: 207 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":5, "score_a":4, "score_p":1, "score_d":3, "score_s":3, "programa":2, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6918 |
+| estado(0) |        0.8938 |
 +-----------+---------------+
-| estado(1) |        0.3082 |
+| estado(1) |        0.1062 |
 +-----------+---------------+
-FILA N°: 210 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":2.0, "game_score":1.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":2, "score_s":4, "programa":3, "sol1":9.0}]
+FILA N°: 210 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":2, "score_s":4, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8163 |
+| estado(0) |        0.9890 |
 +-----------+---------------+
-| estado(1) |        0.1837 |
+| estado(1) |        0.0110 |
 +-----------+---------------+
-FILA N°: 214 -> P("estado" | [{"lt":1.0, "tt":1.0, "pt":2.0, "game_score":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":6, "score_a":4, "score_p":2, "score_d":2, "score_s":2, "programa":5, "sol1":9.0}]
+FILA N°: 214 -> P("estado" | [{"lt":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":6, "score_a":4, "score_p":2, "score_d":2, "score_s":2, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9999 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0001 |
 +-----------+---------------+
-FILA N°: 217 -> P("estado" | [{"lt":1.0, "tt":2.0, "pt":1.0, "game_score":2.0, "op1":0, "op2":0, "op3":1, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":0, "score":7, "score_a":4, "score_p":2, "score_d":3, "score_s":2, "programa":2, "sol1":8.0}]
+FILA N°: 217 -> P("estado" | [{"lt":1.0, "op1":0, "op2":0, "op3":1, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":0, "score":7, "score_a":4, "score_p":2, "score_d":3, "score_s":2, "programa":2, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6710 |
+| estado(0) |        0.4088 |
 +-----------+---------------+
-| estado(1) |        0.3290 |
+| estado(1) |        0.5912 |
 +-----------+---------------+
-FILA N°: 223 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":7, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":9.0}]
+FILA N°: 223 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":7, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9959 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0041 |
 +-----------+---------------+
-FILA N°: 232 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":2, "score_s":3, "programa":4, "sol1":9.0}]
+FILA N°: 232 -> P("estado" | [{"lt":1.0, "op1":1, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":2, "score_s":3, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7803 |
+| estado(0) |        0.3942 |
 +-----------+---------------+
-| estado(1) |        0.2197 |
+| estado(1) |        0.6058 |
 +-----------+---------------+
-FILA N°: 233 -> P("estado" | [{"lt":1.0, "tt":2.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":4, "score_d":2, "score_s":3, "programa":5, "sol1":9.0}]
+FILA N°: 233 -> P("estado" | [{"lt":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":4, "score_d":2, "score_s":3, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9975 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0025 |
 +-----------+---------------+
-FILA N°: 234 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":2.0, "game_score":1.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
+FILA N°: 234 -> P("estado" | [{"lt":1.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6981 |
+| estado(0) |        0.9945 |
 +-----------+---------------+
-| estado(1) |        0.3019 |
+| estado(1) |        0.0055 |
 +-----------+---------------+
-FILA N°: 240 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":1.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":2, "score_s":0, "programa":4, "sol1":4.0}]
+FILA N°: 240 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":2, "score_s":0, "programa":4, "sol1":4.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5129 |
+| estado(0) |        0.9122 |
 +-----------+---------------+
-| estado(1) |        0.4871 |
+| estado(1) |        0.0878 |
 +-----------+---------------+
-FILA N°: 241 -> P("estado" | [{"lt":2.0, "tt":2.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":0, "op3":1, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":0, "score":7, "score_a":5, "score_p":3, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
+FILA N°: 241 -> P("estado" | [{"lt":2.0, "op1":0, "op2":0, "op3":1, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":0, "score":7, "score_a":5, "score_p":3, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8073 |
+| estado(0) |        0.9952 |
 +-----------+---------------+
-| estado(1) |        0.1927 |
+| estado(1) |        0.0048 |
 +-----------+---------------+
-FILA N°: 242 -> P("estado" | [{"lt":1.0, "tt":3.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":9, "score_a":6, "score_p":4, "score_d":2, "score_s":3, "programa":2, "sol1":8.0}]
+FILA N°: 242 -> P("estado" | [{"lt":1.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":9, "score_a":6, "score_p":4, "score_d":2, "score_s":3, "programa":2, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5938 |
+| estado(0) |        0.9900 |
 +-----------+---------------+
-| estado(1) |        0.4062 |
+| estado(1) |        0.0100 |
 +-----------+---------------+
-FILA N°: 244 -> P("estado" | [{"lt":1.0, "tt":1.0, "pt":0.0, "game_score":1.0, "op1":1, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":4, "score_d":3, "score_s":2, "programa":3, "sol1":7.0}]
+FILA N°: 244 -> P("estado" | [{"lt":1.0, "op1":1, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":4, "score_d":3, "score_s":2, "programa":3, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5913 |
+| estado(0) |        0.0779 |
 +-----------+---------------+
-| estado(1) |        0.4087 |
+| estado(1) |        0.9221 |
 +-----------+---------------+
-FILA N°: 251 -> P("estado" | [{"lt":2.0, "tt":1.0, "pt":1.0, "game_score":2.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":8, "score_a":6, "score_p":3, "score_d":4, "score_s":3, "programa":5, "sol1":7.0}]
+FILA N°: 251 -> P("estado" | [{"lt":2.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":8, "score_a":6, "score_p":3, "score_d":4, "score_s":3, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6907 |
+| estado(0) |        0.9817 |
 +-----------+---------------+
-| estado(1) |        0.3093 |
+| estado(1) |        0.0183 |
 +-----------+---------------+
-FILA N°: 262 -> P("estado" | [{"lt":2.0, "tt":3.0, "pt":3.0, "game_score":3.0, "op1":1, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":6, "score_a":4, "score_p":2, "score_d":1, "score_s":3, "programa":2, "sol1":8.0}]
+FILA N°: 262 -> P("estado" | [{"lt":2.0, "op1":1, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":6, "score_a":4, "score_p":2, "score_d":1, "score_s":3, "programa":2, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.5938 |
+| estado(0) |        0.8582 |
 +-----------+---------------+
-| estado(1) |        0.4062 |
+| estado(1) |        0.1418 |
 +-----------+---------------+
-FILA N°: 265 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":2, "score_s":2, "programa":5, "sol1":7.0}]
+FILA N°: 265 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":2, "score_s":2, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9700 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0300 |
 +-----------+---------------+
-FILA N°: 266 -> P("estado" | [{"lt":1.0, "tt":2.0, "pt":2.0, "game_score":2.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":9.0}]
+FILA N°: 266 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7539 |
+| estado(0) |        0.8664 |
 +-----------+---------------+
-| estado(1) |        0.2461 |
+| estado(1) |        0.1336 |
 +-----------+---------------+
-FILA N°: 272 -> P("estado" | [{"lt":6.0, "tt":0.0, "pt":3.0, "game_score":4.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":0, "sv2":0, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":9, "score_a":6, "score_p":3, "score_d":2, "score_s":3, "programa":5, "sol1":7.0}]
+FILA N°: 272 -> P("estado" | [{"lt":6.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":0, "sv2":0, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":9, "score_a":6, "score_p":3, "score_d":2, "score_s":3, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6907 |
+| estado(0) |        0.7710 |
 +-----------+---------------+
-| estado(1) |        0.3093 |
+| estado(1) |        0.2290 |
 +-----------+---------------+
-FILA N°: 278 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":1.0, "game_score":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":3, "sol1":8.0}]
+FILA N°: 278 -> P("estado" | [{"lt":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7431 |
+| estado(0) |        0.9364 |
 +-----------+---------------+
-| estado(1) |        0.2569 |
+| estado(1) |        0.0636 |
 +-----------+---------------+
-FILA N°: 283 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":0, "op2":0, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":4, "score_d":2, "score_s":2, "programa":3, "sol1":8.0}]
+FILA N°: 283 -> P("estado" | [{"lt":1.0, "op1":0, "op2":0, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":4, "score_d":2, "score_s":2, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7431 |
+| estado(0) |        0.7579 |
 +-----------+---------------+
-| estado(1) |        0.2569 |
+| estado(1) |        0.2421 |
 +-----------+---------------+
-FILA N°: 292 -> P("estado" | [{"lt":2.0, "tt":2.0, "pt":3.0, "game_score":3.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":0, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":5, "sol1":9.0}]
+FILA N°: 292 -> P("estado" | [{"lt":2.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":0, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8254 |
+| estado(0) |        0.9972 |
 +-----------+---------------+
-| estado(1) |        0.1746 |
+| estado(1) |        0.0028 |
 +-----------+---------------+
-FILA N°: 295 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":9, "score_a":5, "score_p":5, "score_d":3, "score_s":3, "programa":3, "sol1":8.0}]
+FILA N°: 295 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":9, "score_a":5, "score_p":5, "score_d":3, "score_s":3, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7431 |
+| estado(0) |        0.9961 |
 +-----------+---------------+
-| estado(1) |        0.2569 |
+| estado(1) |        0.0039 |
 +-----------+---------------+
-FILA N°: 299 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":2, "score_d":2, "score_s":2, "programa":5, "sol1":8.0}]
+FILA N°: 299 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":2, "score_d":2, "score_s":2, "programa":5, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7851 |
+| estado(0) |        0.9994 |
 +-----------+---------------+
-| estado(1) |        0.2149 |
+| estado(1) |        0.0006 |
 +-----------+---------------+
-FILA N°: 303 -> P("estado" | [{"lt":2.0, "tt":1.0, "pt":2.0, "game_score":2.0, "op1":0, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":5, "sol1":9.0}]
+FILA N°: 303 -> P("estado" | [{"lt":2.0, "op1":0, "op2":0, "op3":0, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9879 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0121 |
 +-----------+---------------+
-FILA N°: 304 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":5, "sol1":9.0}]
+FILA N°: 304 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9999 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0001 |
 +-----------+---------------+
-FILA N°: 306 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":8.0}]
+FILA N°: 306 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7431 |
+| estado(0) |        0.9490 |
 +-----------+---------------+
-| estado(1) |        0.2569 |
+| estado(1) |        0.0510 |
 +-----------+---------------+
-FILA N°: 308 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":0, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":9, "score_a":6, "score_p":3, "score_d":4, "score_s":3, "programa":3, "sol1":8.0}]
+FILA N°: 308 -> P("estado" | [{"lt":0.0, "op1":1, "op2":0, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":9, "score_a":6, "score_p":3, "score_d":4, "score_s":3, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7431 |
+| estado(0) |        0.9008 |
 +-----------+---------------+
-| estado(1) |        0.2569 |
+| estado(1) |        0.0992 |
 +-----------+---------------+
-FILA N°: 310 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":10, "score_a":6, "score_p":5, "score_d":2, "score_s":3, "programa":5, "sol1":6.0}]
+FILA N°: 310 -> P("estado" | [{"lt":1.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":0, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":10, "score_a":6, "score_p":5, "score_d":2, "score_s":3, "programa":5, "sol1":6.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6424 |
+| estado(0) |        0.1194 |
 +-----------+---------------+
-| estado(1) |        0.3576 |
+| estado(1) |        0.8806 |
 +-----------+---------------+
-FILA N°: 313 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":2.0, "game_score":1.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":7.0}]
+FILA N°: 313 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":3, "score_d":3, "score_s":3, "programa":3, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6773 |
+| estado(0) |        0.8729 |
 +-----------+---------------+
-| estado(1) |        0.3227 |
+| estado(1) |        0.1271 |
 +-----------+---------------+
-FILA N°: 317 -> P("estado" | [{"lt":2.0, "tt":2.0, "pt":1.0, "game_score":2.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":6, "score_a":4, "score_p":3, "score_d":1, "score_s":1, "programa":5, "sol1":9.0}]
+FILA N°: 317 -> P("estado" | [{"lt":2.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":6, "score_a":4, "score_p":3, "score_d":1, "score_s":1, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9681 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0319 |
 +-----------+---------------+
-FILA N°: 320 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":5, "score_d":1, "score_s":1, "programa":4, "sol1":9.0}]
+FILA N°: 320 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":5, "score_d":1, "score_s":1, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7803 |
+| estado(0) |        0.9977 |
 +-----------+---------------+
-| estado(1) |        0.2197 |
+| estado(1) |        0.0023 |
 +-----------+---------------+
-FILA N°: 327 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
+FILA N°: 327 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":3, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7803 |
+| estado(0) |        0.9749 |
 +-----------+---------------+
-| estado(1) |        0.2197 |
+| estado(1) |        0.0251 |
 +-----------+---------------+
-FILA N°: 337 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":3, "score_d":2, "score_s":1, "programa":4, "sol1":9.0}]
+FILA N°: 337 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":3, "score_d":2, "score_s":1, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7803 |
+| estado(0) |        0.9913 |
 +-----------+---------------+
-| estado(1) |        0.2197 |
+| estado(1) |        0.0087 |
 +-----------+---------------+
-FILA N°: 345 -> P("estado" | [{"lt":1.0, "tt":1.0, "pt":1.0, "game_score":1.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":11, "score_a":7, "score_p":5, "score_d":4, "score_s":3, "programa":5, "sol1":7.0}]
+FILA N°: 345 -> P("estado" | [{"lt":1.0, "op1":0, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":11, "score_a":7, "score_p":5, "score_d":4, "score_s":3, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9881 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0119 |
 +-----------+---------------+
-FILA N°: 349 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":4, "score_d":1, "score_s":2, "programa":3, "sol1":9.0}]
+FILA N°: 349 -> P("estado" | [{"lt":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":4, "score_d":1, "score_s":2, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8163 |
+| estado(0) |        0.9532 |
 +-----------+---------------+
-| estado(1) |        0.1837 |
+| estado(1) |        0.0468 |
 +-----------+---------------+
-FILA N°: 351 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":4, "score_d":2, "score_s":3, "programa":5, "sol1":9.0}]
+FILA N°: 351 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":4, "score_p":4, "score_d":2, "score_s":3, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9990 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0010 |
 +-----------+---------------+
-FILA N°: 353 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":3, "score_d":4, "score_s":4, "programa":3, "sol1":8.0}]
+FILA N°: 353 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":3, "score_d":4, "score_s":4, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6660 |
+| estado(0) |        0.9568 |
 +-----------+---------------+
-| estado(1) |        0.3340 |
+| estado(1) |        0.0432 |
 +-----------+---------------+
-FILA N°: 363 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":2.0, "game_score":1.0, "op1":0, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":4, "sol1":7.0}]
+FILA N°: 363 -> P("estado" | [{"lt":1.0, "op1":0, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":4, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6265 |
+| estado(0) |        0.9573 |
 +-----------+---------------+
-| estado(1) |        0.3735 |
+| estado(1) |        0.0427 |
 +-----------+---------------+
-FILA N°: 364 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":3, "score_p":5, "score_d":1, "score_s":1, "programa":5, "sol1":7.0}]
+FILA N°: 364 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":3, "score_p":5, "score_d":1, "score_s":1, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7261 |
+| estado(0) |        0.9955 |
 +-----------+---------------+
-| estado(1) |        0.2739 |
+| estado(1) |        0.0045 |
 +-----------+---------------+
-FILA N°: 366 -> P("estado" | [{"lt":2.0, "tt":0.0, "pt":0.0, "game_score":1.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":7, "score_a":4, "score_p":4, "score_d":1, "score_s":2, "programa":5, "sol1":9.0}]
+FILA N°: 366 -> P("estado" | [{"lt":2.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":0, "score":7, "score_a":4, "score_p":4, "score_d":1, "score_s":2, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8254 |
+| estado(0) |        0.9807 |
 +-----------+---------------+
-| estado(1) |        0.1746 |
+| estado(1) |        0.0193 |
 +-----------+---------------+
-FILA N°: 376 -> P("estado" | [{"lt":2.0, "tt":2.0, "pt":1.0, "game_score":2.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":10, "score_a":7, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":9.0}]
+FILA N°: 376 -> P("estado" | [{"lt":2.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":10, "score_a":7, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9967 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0033 |
 +-----------+---------------+
-FILA N°: 378 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":1.0, "op1":0, "op2":0, "op3":1, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":3, "score_d":2, "score_s":2, "programa":5, "sol1":9.0}]
+FILA N°: 378 -> P("estado" | [{"lt":0.0, "op1":0, "op2":0, "op3":1, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":3, "score_d":2, "score_s":2, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9766 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0234 |
 +-----------+---------------+
-FILA N°: 381 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
+FILA N°: 381 -> P("estado" | [{"lt":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":3, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6981 |
+| estado(0) |        0.7986 |
 +-----------+---------------+
-| estado(1) |        0.3019 |
+| estado(1) |        0.2014 |
 +-----------+---------------+
-FILA N°: 383 -> P("estado" | [{"lt":1.0, "tt":2.0, "pt":3.0, "game_score":2.0, "op1":0, "op2":0, "op3":1, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":0, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":5, "sol1":7.0}]
+FILA N°: 383 -> P("estado" | [{"lt":1.0, "op1":0, "op2":0, "op3":1, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":0, "score":5, "score_a":3, "score_p":2, "score_d":1, "score_s":2, "programa":5, "sol1":7.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6907 |
+| estado(0) |        0.9636 |
 +-----------+---------------+
-| estado(1) |        0.3093 |
+| estado(1) |        0.0364 |
 +-----------+---------------+
-FILA N°: 384 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":5, "score_d":2, "score_s":1, "programa":3, "sol1":9.0}]
+FILA N°: 384 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":8, "score_a":4, "score_p":5, "score_d":2, "score_s":1, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8163 |
+| estado(0) |        0.9863 |
 +-----------+---------------+
-| estado(1) |        0.1837 |
+| estado(1) |        0.0137 |
 +-----------+---------------+
-FILA N°: 386 -> P("estado" | [{"lt":3.0, "tt":0.0, "pt":3.0, "game_score":3.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":9, "score_a":6, "score_p":4, "score_d":3, "score_s":3, "programa":5, "sol1":8.0}]
+FILA N°: 386 -> P("estado" | [{"lt":3.0, "op1":1, "op2":0, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":0, "score":9, "score_a":6, "score_p":4, "score_d":3, "score_s":3, "programa":5, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7548 |
+| estado(0) |        0.9935 |
 +-----------+---------------+
-| estado(1) |        0.2452 |
+| estado(1) |        0.0065 |
 +-----------+---------------+
-FILA N°: 391 -> P("estado" | [{"lt":1.0, "tt":0.0, "pt":2.0, "game_score":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":4, "score_d":1, "score_s":1, "programa":3, "sol1":9.0}]
+FILA N°: 391 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":4, "score_d":1, "score_s":1, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8163 |
+| estado(0) |        0.9674 |
 +-----------+---------------+
-| estado(1) |        0.1837 |
+| estado(1) |        0.0326 |
 +-----------+---------------+
-FILA N°: 407 -> P("estado" | [{"lt":1.0, "tt":2.0, "pt":1.0, "game_score":2.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":4, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
+FILA N°: 407 -> P("estado" | [{"lt":1.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":4, "score_d":2, "score_s":2, "programa":4, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8073 |
+| estado(0) |        0.9980 |
 +-----------+---------------+
-| estado(1) |        0.1927 |
+| estado(1) |        0.0020 |
 +-----------+---------------+
-FILA N°: 417 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":2.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":11, "score_a":7, "score_p":5, "score_d":4, "score_s":3, "programa":5, "sol1":8.0}]
+FILA N°: 417 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":11, "score_a":7, "score_p":5, "score_d":4, "score_s":3, "programa":5, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7851 |
+| estado(0) |        0.9959 |
 +-----------+---------------+
-| estado(1) |        0.2149 |
+| estado(1) |        0.0041 |
 +-----------+---------------+
-FILA N°: 425 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
+FILA N°: 425 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":5, "score_d":3, "score_s":3, "programa":4, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.6981 |
+| estado(0) |        0.9515 |
 +-----------+---------------+
-| estado(1) |        0.3019 |
+| estado(1) |        0.0485 |
 +-----------+---------------+
-FILA N°: 427 -> P("estado" | [{"lt":0.0, "tt":1.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":3, "score_p":2, "score_d":1, "score_s":0, "programa":5, "sol1":9.0}]
+FILA N°: 427 -> P("estado" | [{"lt":0.0, "op1":1, "op2":0, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":4, "score_a":3, "score_p":2, "score_d":1, "score_s":0, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9604 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0396 |
 +-----------+---------------+
-FILA N°: 431 -> P("estado" | [{"lt":0.0, "tt":3.0, "pt":0.0, "game_score":1.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":9, "score_a":6, "score_p":4, "score_d":3, "score_s":3, "programa":3, "sol1":8.0}]
+FILA N°: 431 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":1, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":0, "sv6":1, "score":9, "score_a":6, "score_p":4, "score_d":3, "score_s":3, "programa":3, "sol1":8.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7431 |
+| estado(0) |        0.9945 |
 +-----------+---------------+
-| estado(1) |        0.2569 |
+| estado(1) |        0.0055 |
 +-----------+---------------+
-FILA N°: 432 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":1.0, "game_score":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":4, "score_d":3, "score_s":3, "programa":3, "sol1":9.0}]
+FILA N°: 432 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":0, "score":8, "score_a":5, "score_p":4, "score_d":3, "score_s":3, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.7539 |
+| estado(0) |        0.9945 |
 +-----------+---------------+
-| estado(1) |        0.2461 |
+| estado(1) |        0.0055 |
 +-----------+---------------+
-FILA N°: 435 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":3, "sol1":9.0}]
+FILA N°: 435 -> P("estado" | [{"lt":0.0, "op1":0, "op2":1, "op3":1, "op4":1, "op5":1, "op6":0, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":6, "score_a":3, "score_p":4, "score_d":1, "score_s":2, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8163 |
+| estado(0) |        0.9691 |
 +-----------+---------------+
-| estado(1) |        0.1837 |
+| estado(1) |        0.0309 |
 +-----------+---------------+
-FILA N°: 439 -> P("estado" | [{"lt":2.0, "tt":0.0, "pt":0.0, "game_score":1.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":1, "score":4, "score_a":3, "score_p":2, "score_d":0, "score_s":1, "programa":5, "sol1":9.0}]
+FILA N°: 439 -> P("estado" | [{"lt":2.0, "op1":1, "op2":1, "op3":0, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":0, "sv4":0, "sv5":0, "sv6":1, "score":4, "score_a":3, "score_p":2, "score_d":0, "score_s":1, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9706 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0294 |
 +-----------+---------------+
-FILA N°: 443 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":5, "score_d":2, "score_s":2, "programa":3, "sol1":9.0}]
+FILA N°: 443 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":0, "op5":0, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":0, "sv5":1, "sv6":1, "score":8, "score_a":5, "score_p":5, "score_d":2, "score_s":2, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8163 |
+| estado(0) |        0.9999 |
 +-----------+---------------+
-| estado(1) |        0.1837 |
+| estado(1) |        0.0001 |
 +-----------+---------------+
-FILA N°: 444 -> P("estado" | [{"lt":0.0, "tt":0.0, "pt":0.0, "game_score":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":2, "score_d":4, "score_s":3, "programa":3, "sol1":9.0}]
+FILA N°: 444 -> P("estado" | [{"lt":0.0, "op1":1, "op2":1, "op3":1, "op4":1, "op5":1, "op6":1, "sv1":1, "sv2":1, "sv3":1, "sv4":1, "sv5":1, "sv6":1, "score":7, "score_a":5, "score_p":2, "score_d":4, "score_s":3, "programa":3, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8163 |
+| estado(0) |        0.9978 |
 +-----------+---------------+
-| estado(1) |        0.1837 |
+| estado(1) |        0.0022 |
 +-----------+---------------+
-FILA N°: 455 -> P("estado" | [{"lt":1.0, "tt":1.0, "pt":1.0, "game_score":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":9.0}]
+FILA N°: 455 -> P("estado" | [{"lt":1.0, "op1":0, "op2":1, "op3":0, "op4":0, "op5":0, "op6":0, "sv1":1, "sv2":1, "sv3":0, "sv4":1, "sv5":1, "sv6":1, "score":10, "score_a":6, "score_p":4, "score_d":4, "score_s":3, "programa":5, "sol1":9.0}]
 +-----------+---------------+
 | estado    |   phi(estado) |
 +===========+===============+
-| estado(0) |        0.8488 |
+| estado(0) |        0.9975 |
 +-----------+---------------+
-| estado(1) |        0.1512 |
+| estado(1) |        0.0025 |
 +-----------+---------------+

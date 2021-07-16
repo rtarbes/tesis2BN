@@ -176,32 +176,32 @@ def probabilidadConjunta(model, test, fold, tipo, clase):
         res = js.loads(valor)
         
         arreglo.append([])
-        try:
-            q1 = bn.inference.fit(model, variables=[clase], evidence=res)
+        #try:
+        q1 = bn.inference.fit(model, variables=[clase], evidence=res)
            
-            # Guardando los resultados de la inferencia
-            filename = "Experimentos\ProbConjunta_"+tipo+"_"+str(fold)+".txt"
-            if os.path.exists(filename): 
-               tf = open(filename, "a")
-            else:
-               tf = open(filename, "w")
+        # Guardando los resultados de la inferencia
+        filename = "Experimentos\ProbConjunta_"+tipo+"_"+str(fold)+".txt"
+        if os.path.exists(filename): 
+            tf = open(filename, "a")
+        else:
+            tf = open(filename, "w")
                 
-            tf.write(regSalida+"\n")
-            tf.write(str(q1) + os.linesep)
-            tf.close()
+        tf.write(regSalida+"\n")
+        tf.write(str(q1) + os.linesep)
+        tf.close()
     
-            # Extrayendo la clase con probabilidad mas alta
-            if (q1.get_value(estado=0) > q1.get_value(estado=1)):
-                 arreglo[indice].append(0)
-                 arreglo[indice].append(q1.get_value(estado=0))
-            else:
-                 arreglo[indice].append(1)
-                 arreglo[indice].append(q1.get_value(estado=1))
-        except: 
-            arreglo[indice].append(-1)
-            arreglo[indice].append(-1)
-            e = sys.exc_info()[1]
-            print('ERROR AL REALIZAR LA INFERENCIA: ',e) 
+        # Extrayendo la clase con probabilidad mas alta
+        if (q1.get_value(estado=0) > q1.get_value(estado=1)):
+            arreglo[indice].append(0)
+            arreglo[indice].append(q1.get_value(estado=0))
+        else:
+            arreglo[indice].append(1)
+            arreglo[indice].append(q1.get_value(estado=1))
+        #except: 
+        #    arreglo[indice].append(-1)
+        #    arreglo[indice].append(-1)
+        #    e = sys.exc_info()[1]
+        #    print('ERROR AL REALIZAR LA INFERENCIA: ',e) 
         
         indice += 1
         valor = "{"

@@ -1,0 +1,376 @@
+(TEST) Fold 1: FILA N°: 1 -> P(estado == "1") | (score = "6",score_a = "4",programa = "4",sol1 = "0")
+A: 0.0
+R: 1.0
+
+(TEST) Fold 1: FILA N°: 2 -> P(estado == "1") | (score = "8",score_a = "4",programa = "4",sol1 = "0")
+A: 0.0
+R: 1.0
+
+(TEST) Fold 1: FILA N°: 3 -> P(estado == "1") | (score = "8",score_a = "5",programa = "5",sol1 = "4")
+A: 0.8198670104682055
+R: 0.1815817202133291
+
+(TEST) Fold 1: FILA N°: 4 -> P(estado == "1") | (score = "10",score_a = "7",programa = "3",sol1 = "6")
+A: 0.8440732726679907
+R: 0.15354633178769544
+
+(TEST) Fold 1: FILA N°: 5 -> P(estado == "1") | (score = "6",score_a = "3",programa = "4",sol1 = "6")
+A: 0.7835385612443292
+R: 0.23061608240639803
+
+(TEST) Fold 1: FILA N°: 6 -> P(estado == "1") | (score = "4",score_a = "3",programa = "4",sol1 = "8")
+A: 0.9347299694390562
+R: 0.06840072056009917
+
+(TEST) Fold 1: FILA N°: 7 -> P(estado == "1") | (score = "5",score_a = "2",programa = "4",sol1 = "7")
+A: 0.9449174463738061
+R: 0.05778670416591946
+
+(TEST) Fold 1: FILA N°: 8 -> P(estado == "1") | (score = "8",score_a = "5",programa = "2",sol1 = "7")
+A: 0.904210941030603
+R: 0.09419323220401404
+
+(TEST) Fold 1: FILA N°: 9 -> P(estado == "1") | (score = "6",score_a = "4",programa = "4",sol1 = "5")
+A: 0.41170295170119536
+R: 0.6092577297374945
+
+(TEST) Fold 1: FILA N°: 10 -> P(estado == "1") | (score = "4",score_a = "3",programa = "5",sol1 = "8")
+A: 0.9821473501969216
+R: 0.01816493681242256
+
+(TEST) Fold 1: FILA N°: 11 -> P(estado == "0") | (score = "8",score_a = "5",programa = "5",sol1 = "9")
+A: 0.9937832438791744
+R: 0.006043858039132562
+
+(TEST) Fold 1: FILA N°: 12 -> P(estado == "0") | (score = "6",score_a = "4",programa = "3",sol1 = "1")
+A: 0.4923752283026186
+R: 0.4916243479585842
+
+(TEST) Fold 1: FILA N°: 13 -> P(estado == "0") | (score = "9",score_a = "6",programa = "5",sol1 = "8")
+A: 0.982815670710507
+R: 0.01870088545253191
+
+(TEST) Fold 1: FILA N°: 14 -> P(estado == "0") | (score = "7",score_a = "5",programa = "5",sol1 = "7")
+A: 0.9838381414776958
+R: 0.017496065378987406
+
+(TEST) Fold 1: FILA N°: 15 -> P(estado == "0") | (score = "3",score_a = "2",programa = "5",sol1 = "8")
+A: 0.9817457910281757
+R: 0.018834991084663483
+
+(TEST) Fold 1: FILA N°: 16 -> P(estado == "0") | (score = "9",score_a = "6",programa = "4",sol1 = "7")
+A: 0.9437149358865261
+R: 0.059286682290023776
+
+(TEST) Fold 1: FILA N°: 17 -> P(estado == "0") | (score = "4",score_a = "3",programa = "4",sol1 = "5")
+A: 0.41238274687268
+R: 0.5995008390486737
+
+(TEST) Fold 1: FILA N°: 18 -> P(estado == "0") | (score = "6",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9938264759158626
+R: 0.0056983022429691445
+
+(TEST) Fold 1: FILA N°: 19 -> P(estado == "0") | (score = "6",score_a = "3",programa = "5",sol1 = "9")
+A: 0.9931341613648278
+R: 0.0059574390546351455
+
+(TEST) Fold 1: FILA N°: 20 -> P(estado == "0") | (score = "5",score_a = "2",programa = "5",sol1 = "8")
+A: 0.9805385549742505
+R: 0.01576251291334472
+
+(TEST) Fold 1: FILA N°: 21 -> P(estado == "0") | (score = "5",score_a = "2",programa = "3",sol1 = "9")
+A: 0.9871518695183874
+R: 0.012255052812483729
+
+(TEST) Fold 1: FILA N°: 22 -> P(estado == "0") | (score = "6",score_a = "3",programa = "5",sol1 = "9")
+A: 0.9933506476921257
+R: 0.006000646042913825
+
+(TEST) Fold 1: FILA N°: 23 -> P(estado == "0") | (score = "8",score_a = "5",programa = "5",sol1 = "9")
+A: 0.9943448697140924
+R: 0.005784661163513586
+
+(TEST) Fold 1: FILA N°: 24 -> P(estado == "0") | (score = "9",score_a = "5",programa = "5",sol1 = "6")
+A: 0.9292892862833906
+R: 0.07291116758200407
+
+(TEST) Fold 1: FILA N°: 25 -> P(estado == "0") | (score = "8",score_a = "7",programa = "5",sol1 = "4")
+A: nan
+R: nan
+
+(TEST) Fold 1: FILA N°: 26 -> P(estado == "0") | (score = "11",score_a = "7",programa = "2",sol1 = "9")
+A: 0.9621026086486064
+R: 0.03273226185809486
+
+(TEST) Fold 1: FILA N°: 27 -> P(estado == "0") | (score = "6",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9941289599015839
+R: 0.0062599931698095294
+
+(TEST) Fold 1: FILA N°: 28 -> P(estado == "0") | (score = "9",score_a = "5",programa = "5",sol1 = "7")
+A: 0.9850349136183288
+R: 0.016383899692895526
+
+(TEST) Fold 1: FILA N°: 29 -> P(estado == "0") | (score = "2",score_a = "2",programa = "5",sol1 = "6")
+A: 0.9260612885635409
+R: 0.07239836837645591
+
+(TEST) Fold 1: FILA N°: 30 -> P(estado == "0") | (score = "4",score_a = "3",programa = "5",sol1 = "7")
+A: 0.9822365277877715
+R: 0.018254208971824216
+
+(TEST) Fold 1: FILA N°: 31 -> P(estado == "0") | (score = "8",score_a = "4",programa = "3",sol1 = "8")
+A: 0.9592677139623107
+R: 0.044886838609146225
+
+(TEST) Fold 1: FILA N°: 32 -> P(estado == "0") | (score = "9",score_a = "6",programa = "5",sol1 = "6")
+A: 0.9242568194779724
+R: 0.07332187349884996
+
+(TEST) Fold 1: FILA N°: 33 -> P(estado == "0") | (score = "5",score_a = "3",programa = "5",sol1 = "8")
+A: 0.9813438058871649
+R: 0.01838815665511618
+
+(TEST) Fold 1: FILA N°: 34 -> P(estado == "0") | (score = "6",score_a = "5",programa = "4",sol1 = "7")
+A: 0.9386161351267944
+R: 0.061084466175617545
+
+(TEST) Fold 1: FILA N°: 35 -> P(estado == "0") | (score = "3",score_a = "2",programa = "4",sol1 = "9")
+A: 0.9805688355332277
+R: 0.02035700193994414
+
+(TEST) Fold 1: FILA N°: 36 -> P(estado == "0") | (score = "6",score_a = "4",programa = "4",sol1 = "9")
+A: 0.9787177840094988
+R: 0.025130577995425535
+
+(TEST) Fold 1: FILA N°: 37 -> P(estado == "0") | (score = "9",score_a = "5",programa = "4",sol1 = "9")
+A: 0.9790261194627121
+R: 0.02097388053728793
+
+(TEST) Fold 1: FILA N°: 38 -> P(estado == "0") | (score = "2",score_a = "2",programa = "4",sol1 = "8")
+A: 0.9320460768107314
+R: 0.06705988468401564
+
+(TEST) Fold 1: FILA N°: 39 -> P(estado == "0") | (score = "4",score_a = "3",programa = "4",sol1 = "6")
+A: 0.7683319326674897
+R: 0.22719109744931948
+
+(TEST) Fold 1: FILA N°: 40 -> P(estado == "0") | (score = "5",score_a = "5",programa = "5",sol1 = "9")
+A: 0.9949918494384574
+R: 0.00539620353374506
+
+(TEST) Fold 1: FILA N°: 41 -> P(estado == "0") | (score = "6",score_a = "3",programa = "5",sol1 = "7")
+A: 0.9834383734147425
+R: 0.017629745188936216
+
+(TEST) Fold 1: FILA N°: 42 -> P(estado == "0") | (score = "7",score_a = "3",programa = "4",sol1 = "7")
+A: 0.9404135212737921
+R: 0.058986819487024104
+
+(TEST) Fold 1: FILA N°: 43 -> P(estado == "0") | (score = "6",score_a = "4",programa = "4",sol1 = "8")
+A: 0.9308549456152209
+R: 0.06497149091956674
+
+(TEST) Fold 1: FILA N°: 44 -> P(estado == "0") | (score = "4",score_a = "2",programa = "5",sol1 = "8")
+A: 0.981433172765626
+R: 0.01816493681242256
+
+(TEST) Fold 1: FILA N°: 45 -> P(estado == "0") | (score = "8",score_a = "5",programa = "3",sol1 = "7")
+A: 0.9622349985437204
+R: 0.03806172042883442
+
+(TEST) Fold 1: FILA N°: 46 -> P(estado == "0") | (score = "3",score_a = "2",programa = "4",sol1 = "6")
+A: 0.7732046881020374
+R: 0.22362458370772587
+
+(TEST) Fold 1: FILA N°: 47 -> P(estado == "0") | (score = "6",score_a = "4",programa = "5",sol1 = "5")
+A: 0.711951427097844
+R: 0.2795824597323271
+
+(TEST) Fold 1: FILA N°: 48 -> P(estado == "0") | (score = "6",score_a = "5",programa = "5",sol1 = "8")
+A: 0.9806728822045335
+R: 0.01999922976731914
+
+(TEST) Fold 1: FILA N°: 49 -> P(estado == "0") | (score = "5",score_a = "3",programa = "2",sol1 = "9")
+A: 0.9594103138071547
+R: 0.03765218698331579
+
+(TEST) Fold 1: FILA N°: 50 -> P(estado == "0") | (score = "6",score_a = "4",programa = "5",sol1 = "7")
+A: 0.9839269214311368
+R: 0.0163394810223008
+
+(TEST) Fold 1: FILA N°: 51 -> P(estado == "0") | (score = "7",score_a = "5",programa = "4",sol1 = "7")
+A: 0.9390652580098451
+R: 0.054781759369110034
+
+(TEST) Fold 1: FILA N°: 52 -> P(estado == "0") | (score = "5",score_a = "3",programa = "4",sol1 = "5")
+A: 0.4160804734429142
+R: 0.5931404303499471
+
+(TEST) Fold 1: FILA N°: 53 -> P(estado == "0") | (score = "5",score_a = "2",programa = "3",sol1 = "9")
+A: 0.9835932265983612
+R: 0.014133160996476333
+
+(TEST) Fold 1: FILA N°: 54 -> P(estado == "0") | (score = "10",score_a = "6",programa = "3",sol1 = "8")
+A: 0.9575861591269414
+R: 0.04340302239861894
+
+(TEST) Fold 1: FILA N°: 55 -> P(estado == "0") | (score = "4",score_a = "3",programa = "3",sol1 = "8")
+A: 0.9583774874819289
+R: 0.04310626548136081
+
+(TEST) Fold 1: FILA N°: 56 -> P(estado == "0") | (score = "6",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9935237463703175
+R: 0.005568801373859978
+
+(TEST) Fold 1: FILA N°: 57 -> P(estado == "0") | (score = "7",score_a = "4",programa = "3",sol1 = "8")
+A: 0.9557066942000019
+R: 0.04290842870776234
+
+(TEST) Fold 1: FILA N°: 58 -> P(estado == "0") | (score = "5",score_a = "3",programa = "3",sol1 = "8")
+A: 0.9621360924537394
+R: 0.0414246827716939
+
+(TEST) Fold 1: FILA N°: 59 -> P(estado == "0") | (score = "3",score_a = "2",programa = "4",sol1 = "7")
+A: 0.9362233273635446
+R: 0.06258079775505898
+
+(TEST) Fold 1: FILA N°: 60 -> P(estado == "0") | (score = "10",score_a = "6",programa = "3",sol1 = "9")
+A: 0.9849771793269322
+R: 0.013342368307362719
+
+(TEST) Fold 1: FILA N°: 61 -> P(estado == "0") | (score = "9",score_a = "5",programa = "2",sol1 = "8")
+A: 0.8978605059084196
+R: 0.10191359396144524
+
+(TEST) Fold 1: FILA N°: 62 -> P(estado == "0") | (score = "8",score_a = "6",programa = "5",sol1 = "8")
+A: 0.9824148199924055
+R: 0.01887970350282716
+
+(TEST) Fold 1: FILA N°: 63 -> P(estado == "0") | (score = "3",score_a = "1",programa = "5",sol1 = "9")
+A: 0.9930475316622783
+R: 0.004835812298643194
+
+(TEST) Fold 1: FILA N°: 64 -> P(estado == "0") | (score = "5",score_a = "2",programa = "3",sol1 = "8")
+A: 0.9560034574420848
+R: 0.04290842870776234
+
+(TEST) Fold 1: FILA N°: 65 -> P(estado == "0") | (score = "7",score_a = "3",programa = "4",sol1 = "8")
+A: 0.932791067791084
+R: 0.06780495787001427
+
+(TEST) Fold 1: FILA N°: 66 -> P(estado == "0") | (score = "4",score_a = "2",programa = "4",sol1 = "7")
+A: 0.939514529945878
+R: 0.056285064113473914
+
+(TEST) Fold 1: FILA N°: 67 -> P(estado == "0") | (score = "9",score_a = "5",programa = "5",sol1 = "9")
+A: 0.9939993539570862
+R: 0.005871040098416074
+
+(TEST) Fold 1: FILA N°: 68 -> P(estado == "0") | (score = "7",score_a = "4",programa = "3",sol1 = "6")
+A: 0.8397088623054111
+R: 0.15751373295755683
+
+(TEST) Fold 1: FILA N°: 69 -> P(estado == "0") | (score = "7",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9943448697140924
+R: 0.006130297058873308
+
+(TEST) Fold 1: FILA N°: 70 -> P(estado == "0") | (score = "7",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9941721518712647
+R: 0.0064329915061399606
+
+(TEST) Fold 1: FILA N°: 71 -> P(estado == "0") | (score = "4",score_a = "3",programa = "4",sol1 = "9")
+A: 0.9793345241384598
+R: 0.02466934394582769
+
+(TEST) Fold 1: FILA N°: 72 -> P(estado == "0") | (score = "4",score_a = "3",programa = "3",sol1 = "6")
+A: 0.8427838351837535
+R: 0.1593983803459847
+
+(TEST) Fold 1: FILA N°: 73 -> P(estado == "0") | (score = "5",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9943448697140924
+R: 0.005611963329827454
+
+(TEST) Fold 1: FILA N°: 74 -> P(estado == "0") | (score = "10",score_a = "6",programa = "5",sol1 = "9")
+A: 0.9936102656007461
+R: 0.005525644417136411
+
+(TEST) Fold 1: FILA N°: 75 -> P(estado == "0") | (score = "8",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9941289599015839
+R: 0.006087075044162081
+
+(TEST) Fold 1: FILA N°: 76 -> P(estado == "0") | (score = "8",score_a = "5",programa = "5",sol1 = "6")
+A: 0.9290340320852303
+R: 0.07096596791476978
+
+(TEST) Fold 1: FILA N°: 77 -> P(estado == "0") | (score = "9",score_a = "5",programa = "3",sol1 = "8")
+A: 0.9580807411055963
+R: 0.03895188999367754
+
+(TEST) Fold 1: FILA N°: 78 -> P(estado == "0") | (score = "8",score_a = "4",programa = "3",sol1 = "9")
+A: 0.9874484094059107
+R: 0.013836611983050438
+
+(TEST) Fold 1: FILA N°: 79 -> P(estado == "0") | (score = "8",score_a = "4",programa = "5",sol1 = "9")
+A: 0.9938264759158626
+R: 0.0055256444171364145
+
+(TEST) Fold 1: FILA N°: 80 -> P(estado == "0") | (score = "9",score_a = "6",programa = "2",sol1 = "9")
+A: 0.9667743841414154
+R: 0.033225615858584655
+
+(TEST) Fold 1: FILA N°: 81 -> P(estado == "0") | (score = "12",score_a = "8",programa = "4",sol1 = "9")
+A: 0.9805688355332277
+R: 0.018968011749764285
+
+(TEST) Fold 1: FILA N°: 82 -> P(estado == "0") | (score = "9",score_a = "5",programa = "4",sol1 = "9")
+A: 0.9816497680298032
+R: 0.021282215990501164
+
+(TEST) Fold 1: FILA N°: 83 -> P(estado == "0") | (score = "11",score_a = "7",programa = "3",sol1 = "9")
+A: 0.9853725859677197
+R: 0.01265043698927175
+
+(TEST) Fold 1: FILA N°: 84 -> P(estado == "0") | (score = "10",score_a = "6",programa = "4",sol1 = "8")
+A: 0.9295161784106116
+R: 0.06018587258624117
+
+(TEST) Fold 1: FILA N°: 85 -> P(estado == "0") | (score = "9",score_a = "5",programa = "3",sol1 = "9")
+A: 0.9844829157606798
+R: 0.017296481519841377
+
+(TEST) Fold 1: FILA N°: 86 -> P(estado == "0") | (score = "6",score_a = "4",programa = "3",sol1 = "9")
+A: 0.986756479725779
+R: 0.01265043698927175
+
+(TEST) Fold 1: FILA N°: 87 -> P(estado == "0") | (score = "9",score_a = "6",programa = "5",sol1 = "9")
+A: 0.9936535176918484
+R: 0.006043858039132562
+
+(TEST) Fold 1: FILA N°: 88 -> P(estado == "0") | (score = "10",score_a = "6",programa = "5",sol1 = "9")
+A: 0.9932207709658051
+R: 0.005137456629362607
+
+(TEST) Fold 1: FILA N°: 89 -> P(estado == "0") | (score = "8",score_a = "5",programa = "4",sol1 = "9")
+A: 0.9762535896008406
+R: 0.022360845285634385
+
+(TEST) Fold 1: FILA N°: 90 -> P(estado == "0") | (score = "10",score_a = "7",programa = "5",sol1 = "9")
+A: 0.99356700849386
+R: 0.006216756120825599
+
+(TEST) Fold 1: FILA N°: 91 -> P(estado == "0") | (score = "8",score_a = "5",programa = "3",sol1 = "9")
+A: 0.9853725859677197
+R: 0.013638913810776202
+
+(TEST) Fold 1: FILA N°: 92 -> P(estado == "0") | (score = "10",score_a = "7",programa = "3",sol1 = "9")
+A: 0.9871518695183874
+R: 0.013045824909926751
+
+(TEST) Fold 1: FILA N°: 93 -> P(estado == "0") | (score = "8",score_a = "4",programa = "3",sol1 = "9")
+A: 0.9880414828632266
+R: 0.01670334066813362
+
+(TEST) Fold 1: FILA N°: 94 -> P(estado == "0") | (score = "11",score_a = "7",programa = "5",sol1 = "9")
+A: 0.99356700849386
+R: 0.006087075044162076
+
