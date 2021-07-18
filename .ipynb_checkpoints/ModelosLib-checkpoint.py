@@ -215,7 +215,7 @@ def modeloPython (df, clase, numSplits, score, balanceado, seleccionVariables):
     print("Tiempo estimado del proceso completo: %0.10f seconds." % elapsed_time_full)
     
 # %% Modelo Bayesiano en R
-def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariables):
+def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariables, listaBlanca, listaNegra):
     """ Calculo del modelo Bayesiano utilizando R
     
     Descripción
@@ -259,6 +259,12 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
     seleccionVariables: {0, n}
         a. 0         -> Si el valor es 0 NO hace uso de la característica de selección de variables
         b. mayor a 0 -> Indica el número de variables a seleccionar.
+        
+    listaBlanca: corresponde a un vector con las variables "desde" y "hasta" que contienen los arcos que deben ser incluídos en 
+    el aprendizaje de la estructura.
+
+    listaNegra: corresponde a un vector con las variables "desde" y "hasta" que contienen los arcos que no deben ser incluídos en
+    el aprendizaje de la estructura.
 
     Retorna
     -------
@@ -303,7 +309,7 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
             
             if seleccionVariables == 0:
                 # Aprendiendo la estructura y los parametros de la porción de datos entrenados "sobre muestrados"
-                modeloAprendido = blR.AprendizajeR(X_trainOversample, fold_no, "TRAIN", discreta, score, clase)
+                modeloAprendido = blR.AprendizajeR(X_trainOversample, fold_no, "TRAIN", discreta, score, clase, listaBlanca, listaNegra)
 
                 # Realizando la inferencia de los datos de entrenamiento
                 probTrain = blR.probabilidadConjuntaR(modeloAprendido, X_trainOversample, fold_no, "TRAIN", discreta, clase)
@@ -313,7 +319,7 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
                 selectK_mask = X_univariate.get_support()
                 X_reduced = X_trainOversample[X_trainOversample.columns[selectK_mask]]
                 
-                modeloAprendido = blR.AprendizajeR(X_reduced, fold_no, "TRAIN", discreta, score, clase)
+                modeloAprendido = blR.AprendizajeR(X_reduced, fold_no, "TRAIN", discreta, score, clase, listaBlanca, listaNegra)
                 
                 # Realizando la inferencia de los datos de entrenamiento
                 probTrain = blR.probabilidadConjuntaR(modeloAprendido, X_reduced, fold_no, "TRAIN", discreta, clase)
@@ -326,7 +332,7 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
         else:
             if seleccionVariables == 0:
                 # Aprendiendo la estructura y los parametros de la porción de datos entrenados "sobre muestrados"
-                modeloAprendido = blR.AprendizajeR(train, fold_no, "TRAIN", discreta, score, clase)
+                modeloAprendido = blR.AprendizajeR(train, fold_no, "TRAIN", discreta, score, clase, listaBlanca, listaNegra)
 
                 # Realizando la inferencia de los datos de entrenamiento
                 probTrain = blR.probabilidadConjuntaR(modeloAprendido, train, fold_no, "TRAIN", discreta, clase)
@@ -337,7 +343,7 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
                 X_reduced = train[train.columns[selectK_mask]]
                  
                 # Aprendiendo la estructura y los parametros de la porción de datos entrenados "sobre muestrados"
-                modeloAprendido = blR.AprendizajeR(X_reduced, fold_no, "TRAIN", discreta, score, clase)
+                modeloAprendido = blR.AprendizajeR(X_reduced, fold_no, "TRAIN", discreta, score, clase, listaBlanca, listaNegra)
 
                 # Realizando la inferencia de los datos de entrenamiento
                 probTrain = blR.probabilidadConjuntaR(modeloAprendido, X_reduced, fold_no, "TRAIN", discreta, clase)
@@ -366,14 +372,14 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
          
         if seleccionVariables == 0:
             # Aprendiendo la estructura y los parametros de la porción de datos de pruebas
-            # modeloTest = blR.AprendizajeR(test, fold_no, "TEST", discreta, score, clase)
+            # modeloTest = blR.AprendizajeR(test, fold_no, "TEST", discreta, score, clase, listaBlanca, listaNegra)
 
             # Realizando la inferencia de los datos de prueba
             probTest = blR.probabilidadConjuntaR(modeloAprendido, test, fold_no, "TEST", discreta, clase)
         else:
             X_reducedTest = test[test.columns[selectK_mask]]
             # Aprendiendo la estructura y los parametros de la porción de datos de pruebas
-            # modeloTest = blR.AprendizajeR(X_reducedTest, fold_no, "TEST", discreta, score, clase)
+            # modeloTest = blR.AprendizajeR(X_reducedTest, fold_no, "TEST", discreta, score, clase, listaBlanca, listaNegra)
 
             # Realizando la inferencia de los datos de prueba utilizando el modelo aprendido
             probTest = blR.probabilidadConjuntaR(modeloAprendido, X_reducedTest, fold_no, "TEST", discreta, clase)

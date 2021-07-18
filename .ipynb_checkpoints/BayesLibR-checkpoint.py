@@ -78,7 +78,15 @@ def AprendizajeR(model, fold, tipo, discreta, score, clase, lstBlanca, lstNegra)
         d. "aic-cg"    -> Solo para variables mixtas, es decir, cuando flag "discreta = False"
         e. "bic-cg"    -> Solo para variables mixtas, es decir, cuando flag "discreta = False"
         f. "loglik-cg" -> Solo para variables mixtas, es decir, cuando flag "discreta = False"
+    
+    clase: nombre de la variabla "clase" que se está calculando
          
+    lstBlanca: corresponde a un vector con las variables "desde" y "hasta" que contienen los arcos que deben ser incluídos en 
+    el aprendizaje de la estructura.
+
+    lstNegra: corresponde a un vector con las variables "desde" y "hasta" que contienen los arcos que no deben ser incluídos en
+    el aprendizaje de la estructura.
+
     Retorna
     -------
     Retorna un modelo aprendido "pdag"
@@ -174,11 +182,6 @@ def AprendizajeR(model, fold, tipo, discreta, score, clase, lstBlanca, lstNegra)
     # ------------------------------------------------
     pdag = r('bn.fit(dag, data = df_r, method = "mle")')
     
-    #print(str(pdag[0][0][0]))
-    #print(str(pdag[0][1][0])) #
-    #print(str(pdag[0][2][0])) #nodos
-    #print(str(pdag[0][3][0]))
-    
     # Pasando los parametros aprendidos al ámbito R
     globalenv['pdag'] = pdag
     
@@ -190,15 +193,6 @@ def AprendizajeR(model, fold, tipo, discreta, score, clase, lstBlanca, lstNegra)
         file = open(filename, "w")
 
     file.write(str(pdag))
-    #for nodo in range(len(pdag)):
-    #    file.write("nodo: " + str(pdag[nodo][0][0])+"\n")
-        
-    #    for anterior in range(len(pdag[nodo][1])):
-    #        file.write("nodo anterior: " + str(pdag[nodo][1][anterior])+"\n")
-        
-    #    for prob in range(len(pdag[nodo][3])):
-    #        file.write("probabilidad: " + str(pdag[nodo][3][prob])+"\n")
-    #    file.write("====================================================\n")
 
     file.close()
 

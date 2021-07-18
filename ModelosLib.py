@@ -259,6 +259,12 @@ def modeloR (df, clase, numSplits, discreta, score, balanceado, seleccionVariabl
     seleccionVariables: {0, n}
         a. 0         -> Si el valor es 0 NO hace uso de la característica de selección de variables
         b. mayor a 0 -> Indica el número de variables a seleccionar.
+        
+    listaBlanca: corresponde a un vector con las variables "desde" y "hasta" que contienen los arcos que deben ser incluídos en 
+    el aprendizaje de la estructura.
+
+    listaNegra: corresponde a un vector con las variables "desde" y "hasta" que contienen los arcos que no deben ser incluídos en
+    el aprendizaje de la estructura.
 
     Retorna
     -------
