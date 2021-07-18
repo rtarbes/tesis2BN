@@ -1,0 +1,281 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     dataset_a_discretiz_frec_5_bins
+Instances:    467
+Attributes:   24
+              op1
+              op2
+              op3
+              op4
+              op5
+              op6
+              sv1
+              sv2
+              sv3
+              sv4
+              sv5
+              sv6
+              lt
+              tt
+              pt
+              game_score
+              score
+              score_a
+              score_p
+              score_d
+              score_s
+              programa
+              sol1
+              estado
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): estado op4 op1 op2 
+op4(2): estado tt sv4 programa 
+op5(2): estado programa sv5 sol1 op4 
+op6(2): estado sol1 sv6 sv5 op2 
+sv1(2): 
+sv2(2): estado sv6 sol1 game_score op2 op1 op6 sv5 
+sv3(2): estado op2 op4 op6 
+sv4(2): 
+sv5(2): 
+sv6(2): estado programa 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): estado programa sv4 tt op3 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): 
+sol1(3): 
+estado(2): sol1 programa 
+LogScore Bayes: -5424.811770134621
+LogScore BDeu: -19044.416083518707
+LogScore MDL: -13184.828207213552
+LogScore ENTROPY: -6731.18248666114
+LogScore AIC: -8831.182486661171
+
+
+Time taken to build model: 27.61 seconds
+
+
+=== Classifier model for fold 1 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): op3 
+op2(2): estado sol1 sv2 op5 sv4 
+op3(2): 
+op4(2): estado sol1 programa op5 sv5 sv6 
+op5(2): 
+op6(2): 
+sv1(2): 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sol1 sv6 sv5 
+sol1(3): estado sv5 
+estado(2): 
+LogScore Bayes: -4456.174865222208
+LogScore BDeu: -6491.8620476360775
+LogScore MDL: -5828.922838423257
+LogScore ENTROPY: -4609.07768397663
+LogScore AIC: -5021.0776839766295
+
+
+=== Classifier model for fold 2 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): estado tt sv2 
+op2(2): 
+op3(2): estado op4 sol1 sv3 game_score op2 
+op4(2): 
+op5(2): sv1 
+op6(2): 
+sv1(2): 
+sv2(2): estado game_score sol1 tt sv5 sv4 
+sv3(2): estado op4 op5 op1 tt sv1 
+sv4(2): estado sv5 op2 op4 op5 
+sv5(2): 
+sv6(2): estado sv5 op6 sv2 sv1 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv5 sv6 
+sol1(3): estado sv5 
+estado(2): 
+LogScore Bayes: -4219.752524810215
+LogScore BDeu: -10867.653205634006
+LogScore MDL: -8150.839766496569
+LogScore ENTROPY: -4775.54006729948
+LogScore AIC: -5915.540067299524
+
+
+=== Classifier model for fold 3 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): estado sol1 game_score op1 sv4 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): estado tt programa op1 op4 sv5 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv6 sv5 
+sol1(3): estado sv5 tt 
+estado(2): 
+LogScore Bayes: -4460.396720578442
+LogScore BDeu: -17102.471684566535
+LogScore MDL: -11334.48780114931
+LogScore ENTROPY: -5978.960560286577
+LogScore AIC: -7786.960560286575
+
+
+=== Classifier model for fold 4 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): estado sv4 
+op4(2): estado sol1 op6 
+op5(2): estado op1 op4 sv1 sv5 
+op6(2): 
+sv1(2): 
+sv2(2): estado op3 sol1 op5 op2 sv4 op6 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): estado op6 tt op4 sol1 op3 sv2 sv5 sv1 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): estado sol1 op2 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado op2 op5 op4 
+sol1(2): estado tt 
+estado(2): 
+LogScore Bayes: -4404.554878954403
+LogScore BDeu: -15072.80687044131
+LogScore MDL: -9931.94916449029
+LogScore ENTROPY: -5281.4083635198795
+LogScore AIC: -6851.408363519881
+
+
+=== Classifier model for fold 5 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): op2 
+op4(2): estado tt op5 sol1 sv2 
+op5(2): 
+op6(2): 
+sv1(2): 
+sv2(2): 
+sv3(2): 
+sv4(2): estado tt op2 sv2 game_score op6 sv1 sv5 
+sv5(2): 
+sv6(2): programa estado op6 op4 op5 sv2 sv1 
+lt(1): 
+tt(5): estado game_score op5 op2 
+pt(1): 
+game_score(5): estado sv5 op3 op1 sv1 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv5 op2 op5 op4 
+sol1(3): estado op3 op2 
+estado(2): 
+LogScore Bayes: -4398.80145777873
+LogScore BDeu: -21209.230694437298
+LogScore MDL: -13238.823290125974
+LogScore ENTROPY: -5883.85971763581
+LogScore AIC: -8366.859717635843
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         418               89.5075 %
+Incorrectly Classified Instances        49               10.4925 %
+Kappa statistic                          0.3111
+Mean absolute error                      0.1329
+Root mean squared error                  0.2917
+Relative absolute error                 70.1375 %
+Root relative squared error             95.1893 %
+Total Number of Instances              467     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,286    0,033    0,500      0,286    0,364      0,326    0,751     0,364     R
+                 0,967    0,714    0,920      0,967    0,943      0,326    0,751     0,954     A
+Weighted Avg.    0,895    0,643    0,876      0,895    0,882      0,326    0,751     0,892     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  14  35 |   a = R
+  14 404 |   b = A
+

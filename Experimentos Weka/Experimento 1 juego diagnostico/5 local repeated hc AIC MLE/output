@@ -1,0 +1,401 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.local.RepeatedHillClimber -- -U 10 -A 1 -N -P 10 -S AIC -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.0
+Relation:     dataset_a-weka.filters.unsupervised.attribute.Remove-R1-7,11,13-14,18,20-21,25,27-28,32,34-35,39,41-42,46,64-79-weka.filters.unsupervised.attribute.Discretize-F-B5-M-1.0-R1,5,9,13,17,21,38,40-precision6
+Instances:    467
+Attributes:   41
+              t1
+              r1
+              p1
+              l1
+              t2
+              r2
+              p2
+              l2
+              t3
+              r3
+              p3
+              l3
+              t4
+              r4
+              p4
+              l4
+              t5
+              r5
+              p5
+              l5
+              t6
+              r6
+              p6
+              l6
+              op1
+              op2
+              op3
+              op4
+              op5
+              op6
+              sv1
+              sv2
+              sv3
+              sv4
+              sv5
+              sv6
+              lt
+              tt
+              pt
+              game_score
+              estado
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): p5 r6 tt 
+r1(1): sv1 
+p1(1): r3 
+l1(1): 
+t2(5): tt 
+r2(1): l6 
+p2(1): sv1 
+l2(1): 
+t3(5): tt 
+r3(1): 
+p3(1): op5 p4 
+l3(1): l1 
+t4(5): op4 game_score 
+r4(1): 
+p4(1): l5 
+l4(1): r3 
+t5(5): tt sv5 
+r5(1): l3 
+p5(1): lt 
+l5(1): l6 
+t6(5): tt op6 
+r6(1): 
+p6(1): t1 
+l6(1): r5 
+op1(2): t1 op4 
+op2(2): sv2 t2 
+op3(2): op5 game_score 
+op4(2): lt sv4 game_score 
+op5(2): lt game_score sv5 
+op6(2): sv6 op3 
+sv1(2): op1 sv2 
+sv2(2): p1 t2 sv6 
+sv3(2): op3 
+sv4(2): game_score op5 
+sv5(2): 
+sv6(2): p4 sv4 t4 sv5 
+lt(1): 
+tt(5): game_score op3 
+pt(1): sv5 
+game_score(5): sv5 r4 
+estado(2): l1 l2 sv1 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+Time taken to build model: 4.78 seconds
+
+
+=== Classifier model for fold 1 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): p5 r6 tt 
+r1(1): sv1 
+p1(1): r3 
+l1(1): 
+t2(5): tt 
+r2(1): l6 
+p2(1): sv1 
+l2(1): 
+t3(5): tt op3 
+r3(1): 
+p3(1): op5 p4 
+l3(1): l1 
+t4(5): op4 sv4 
+r4(1): 
+p4(1): l5 
+l4(1): r3 
+t5(5): tt op5 
+r5(1): l3 
+p5(1): lt 
+l5(1): l6 
+t6(5): tt op6 
+r6(1): 
+p6(1): t1 
+l6(1): r5 
+op1(2): t1 op4 
+op2(2): t2 sv6 op1 
+op3(2): sv6 op5 tt 
+op4(2): lt op5 
+op5(2): lt sv5 
+op6(2): sv6 op3 
+sv1(2): op2 op1 op4 
+sv2(2): p1 op2 op3 
+sv3(2): op3 
+sv4(2): op4 op5 
+sv5(2): estado 
+sv6(2): p4 sv4 t4 
+lt(1): 
+tt(5): t4 
+pt(1): sv5 
+game_score(5): r4 tt sv4 sv6 
+estado(2): l1 l2 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 2 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): p5 r6 tt 
+r1(1): sv1 
+p1(1): r3 
+l1(1): 
+t2(5): tt 
+r2(1): l6 
+p2(1): sv1 
+l2(1): 
+t3(5): tt 
+r3(1): 
+p3(1): op5 p4 
+l3(1): l1 
+t4(5): op4 sv4 
+r4(1): 
+p4(1): l5 
+l4(1): r3 
+t5(5): tt 
+r5(1): l3 
+p5(1): lt 
+l5(1): l6 
+t6(5): tt op6 
+r6(1): 
+p6(1): t1 
+l6(1): r5 
+op1(2): t1 sv2 
+op2(2): t2 sv6 
+op3(2): game_score op5 
+op4(2): lt sv4 
+op5(2): lt game_score sv5 
+op6(2): sv6 op5 
+sv1(2): sv2 op1 
+sv2(2): p1 op2 sv6 op3 
+sv3(2): op3 
+sv4(2): 
+sv5(2): sv6 sv4 estado 
+sv6(2): p4 sv4 t4 
+lt(1): 
+tt(5): t4 
+pt(1): sv5 
+game_score(5): sv5 r4 tt sv4 
+estado(2): l1 l2 sv6 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 3 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): p5 r6 tt op4 
+r1(1): sv1 
+p1(1): r3 
+l1(1): 
+t2(5): tt 
+r2(1): l6 
+p2(1): sv1 
+l2(1): 
+t3(5): tt 
+r3(1): 
+p3(1): op5 p4 
+l3(1): l1 
+t4(5): op4 sv4 
+r4(1): 
+p4(1): l5 
+l4(1): r3 
+t5(5): tt 
+r5(1): l3 
+p5(1): lt 
+l5(1): l6 
+t6(5): tt op6 
+r6(1): 
+p6(1): t1 
+l6(1): r5 
+op1(2): t1 op4 
+op2(2): sv2 t2 
+op3(2): sv6 op4 sv4 
+op4(2): lt sv4 
+op5(2): lt op3 sv4 op4 
+op6(2): sv6 
+sv1(2): sv2 t1 
+sv2(2): p1 t2 sv6 
+sv3(2): op3 
+sv4(2): 
+sv5(2): op5 op3 sv4 
+sv6(2): p4 sv4 t4 
+lt(1): 
+tt(5): game_score op3 
+pt(1): sv5 
+game_score(5): sv5 r4 sv6 op4 
+estado(2): l1 l2 op5 op1 op4 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 4 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): p5 r6 tt 
+r1(1): sv1 
+p1(1): r3 
+l1(1): 
+t2(5): tt 
+r2(1): l6 
+p2(1): sv1 
+l2(1): 
+t3(5): tt 
+r3(1): 
+p3(1): op5 p4 
+l3(1): l1 
+t4(5): op4 tt 
+r4(1): 
+p4(1): l5 
+l4(1): r3 
+t5(5): tt 
+r5(1): l3 
+p5(1): lt 
+l5(1): l6 
+t6(5): tt sv6 
+r6(1): 
+p6(1): t1 
+l6(1): r5 
+op1(2): t1 op4 
+op2(2): game_score t2 
+op3(2): op5 game_score 
+op4(2): lt sv4 op5 
+op5(2): lt game_score sv5 
+op6(2): sv6 
+sv1(2): t1 sv6 
+sv2(2): p1 op2 op3 
+sv3(2): op3 
+sv4(2): game_score op5 sv6 
+sv5(2): 
+sv6(2): p4 op2 game_score 
+lt(1): 
+tt(5): game_score op3 
+pt(1): sv5 
+game_score(5): sv5 r4 
+estado(2): l1 l2 op4 t5 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 5 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): p5 r6 tt 
+r1(1): sv1 
+p1(1): r3 
+l1(1): 
+t2(5): tt 
+r2(1): l6 
+p2(1): sv1 
+l2(1): 
+t3(5): tt op3 
+r3(1): 
+p3(1): op5 p4 
+l3(1): l1 
+t4(5): tt 
+r4(1): 
+p4(1): l5 
+l4(1): r3 
+t5(5): tt 
+r5(1): l3 
+p5(1): lt 
+l5(1): l6 
+t6(5): tt op6 
+r6(1): 
+p6(1): t1 
+l6(1): r5 
+op1(2): t1 sv2 
+op2(2): t2 sv6 
+op3(2): op5 game_score 
+op4(2): lt t4 op5 op3 
+op5(2): lt game_score sv5 
+op6(2): sv6 op3 
+sv1(2): op1 sv6 
+sv2(2): p1 op2 op3 
+sv3(2): op3 
+sv4(2): op4 game_score 
+sv5(2): 
+sv6(2): p4 sv4 t4 sv5 
+lt(1): 
+tt(5): game_score op3 
+pt(1): sv5 
+game_score(5): sv5 r4 
+estado(2): l1 l2 sv4 op6 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         374               80.0857 %
+Incorrectly Classified Instances        44                9.4218 %
+Kappa statistic                          0     
+Mean absolute error                      0.1835
+Root mean squared error                  0.3103
+Relative absolute error                108.042  %
+Root relative squared error            106.8537 %
+UnClassified Instances                  49               10.4925 %
+Total Number of Instances              467     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,516     0,137     R
+                 1,000    1,000    0,895      1,000    0,944      ?        0,514     0,895     A
+Weighted Avg.    0,895    0,895    ?          0,895    ?          ?        0,514     0,815     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0  44 |   a = R
+   0 374 |   b = A
+

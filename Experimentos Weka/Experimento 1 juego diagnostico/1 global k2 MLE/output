@@ -1,0 +1,401 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.K2 -- -P 10 -N -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.0
+Relation:     dataset_a-weka.filters.unsupervised.attribute.Remove-R1-7,11,13-14,18,20-21,25,27-28,32,34-35,39,41-42,46,64-79-weka.filters.unsupervised.attribute.Discretize-F-B5-M-1.0-R1,5,9,13,17,21,38,40-precision6
+Instances:    467
+Attributes:   41
+              t1
+              r1
+              p1
+              l1
+              t2
+              r2
+              p2
+              l2
+              t3
+              r3
+              p3
+              l3
+              t4
+              r4
+              p4
+              l4
+              t5
+              r5
+              p5
+              l5
+              t6
+              r6
+              p6
+              l6
+              op1
+              op2
+              op3
+              op4
+              op5
+              op6
+              sv1
+              sv2
+              sv3
+              sv4
+              sv5
+              sv6
+              lt
+              tt
+              pt
+              game_score
+              estado
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): 
+r1(1): 
+p1(1): 
+l1(1): 
+t2(5): 
+r2(1): 
+p2(1): 
+l2(1): 
+t3(5): 
+r3(1): 
+p3(1): 
+l3(1): 
+t4(5): 
+r4(1): 
+p4(1): 
+l4(1): 
+t5(5): 
+r5(1): 
+p5(1): 
+l5(1): 
+t6(5): estado t1 
+r6(1): 
+p6(1): 
+l6(1): 
+op1(2): t3 
+op2(2): 
+op3(2): estado t5 t2 
+op4(2): 
+op5(2): t1 estado t2 
+op6(2): 
+sv1(2): estado t2 op1 t1 
+sv2(2): estado op3 op6 
+sv3(2): estado t4 t2 op3 
+sv4(2): estado t4 op4 op3 
+sv5(2): 
+sv6(2): estado t6 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+Time taken to build model: 2.25 seconds
+
+
+=== Classifier model for fold 1 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): estado 
+r1(1): 
+p1(1): 
+l1(1): 
+t2(5): 
+r2(1): 
+p2(1): 
+l2(1): 
+t3(5): 
+r3(1): 
+p3(1): 
+l3(1): 
+t4(5): 
+r4(1): 
+p4(1): 
+l4(1): 
+t5(5): 
+r5(1): 
+p5(1): 
+l5(1): 
+t6(5): 
+r6(1): 
+p6(1): 
+l6(1): 
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): estado t5 t2 
+op5(2): estado t1 t4 
+op6(2): 
+sv1(2): estado op1 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): estado op3 t6 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 2 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): 
+r1(1): 
+p1(1): 
+l1(1): 
+t2(5): 
+r2(1): 
+p2(1): 
+l2(1): 
+t3(5): 
+r3(1): 
+p3(1): 
+l3(1): 
+t4(5): 
+r4(1): 
+p4(1): 
+l4(1): 
+t5(5): 
+r5(1): 
+p5(1): 
+l5(1): 
+t6(5): 
+r6(1): 
+p6(1): 
+l6(1): 
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): estado op1 
+sv2(2): 
+sv3(2): 
+sv4(2): estado t4 t5 
+sv5(2): 
+sv6(2): estado t6 t4 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): estado t3 op1 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 3 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): 
+r1(1): 
+p1(1): 
+l1(1): 
+t2(5): estado 
+r2(1): 
+p2(1): 
+l2(1): 
+t3(5): estado t2 
+r3(1): 
+p3(1): 
+l3(1): 
+t4(5): 
+r4(1): 
+p4(1): 
+l4(1): 
+t5(5): estado t2 
+r5(1): 
+p5(1): 
+l5(1): 
+t6(5): estado t1 
+r6(1): 
+p6(1): 
+l6(1): 
+op1(2): estado t6 t3 
+op2(2): estado t5 op1 
+op3(2): estado t6 t2 
+op4(2): estado t5 t2 
+op5(2): 
+op6(2): estado op2 t6 
+sv1(2): estado op1 t4 
+sv2(2): estado t1 op3 
+sv3(2): estado t6 op6 op4 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): estado op1 
+pt(1): 
+game_score(5): 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 4 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): 
+r1(1): 
+p1(1): 
+l1(1): 
+t2(5): 
+r2(1): 
+p2(1): 
+l2(1): 
+t3(5): 
+r3(1): 
+p3(1): 
+l3(1): 
+t4(5): 
+r4(1): 
+p4(1): 
+l4(1): 
+t5(5): 
+r5(1): 
+p5(1): 
+l5(1): 
+t6(5): estado t1 
+r6(1): 
+p6(1): 
+l6(1): 
+op1(2): t1 estado t4 
+op2(2): 
+op3(2): estado t6 t4 
+op4(2): 
+op5(2): estado op1 t4 op3 
+op6(2): estado t5 t2 
+sv1(2): estado op2 op1 
+sv2(2): 
+sv3(2): estado t6 op4 op6 
+sv4(2): estado t3 op3 
+sv5(2): op1 
+sv6(2): estado t3 op2 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 5 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+t1(5): 
+r1(1): 
+p1(1): 
+l1(1): 
+t2(5): 
+r2(1): 
+p2(1): 
+l2(1): 
+t3(5): 
+r3(1): 
+p3(1): 
+l3(1): 
+t4(5): 
+r4(1): 
+p4(1): 
+l4(1): 
+t5(5): 
+r5(1): 
+p5(1): 
+l5(1): 
+t6(5): estado t2 
+r6(1): 
+p6(1): 
+l6(1): 
+op1(2): estado t6 t1 
+op2(2): estado t5 t3 
+op3(2): estado t2 t1 
+op4(2): estado t3 t5 
+op5(2): 
+op6(2): 
+sv1(2): estado t2 
+sv2(2): estado op6 op5 
+sv3(2): estado op5 t2 op6 op3 
+sv4(2): 
+sv5(2): 
+sv6(2): estado sv5 op2 op5 op4 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         399               85.439  %
+Incorrectly Classified Instances        56               11.9914 %
+Kappa statistic                         -0.002 
+Mean absolute error                      0.1313
+Root mean squared error                  0.3414
+Relative absolute error                 70.9704 %
+Root relative squared error            112.5909 %
+UnClassified Instances                  12                2.5696 %
+Total Number of Instances              467     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,021    0,022    0,100      0,021    0,034      -0,003   0,469     0,122     R
+                 0,978    0,979    0,894      0,978    0,934      -0,003   0,467     0,888     A
+Weighted Avg.    0,877    0,878    0,811      0,877    0,839      -0,003   0,467     0,808     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   1  47 |   a = R
+   9 398 |   b = A
+

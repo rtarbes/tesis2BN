@@ -1,0 +1,282 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.0
+Relation:     dataset_a_discretiz_frec_5_bins
+Instances:    467
+Attributes:   24
+              op1
+              op2
+              op3
+              op4
+              op5
+              op6
+              sv1
+              sv2
+              sv3
+              sv4
+              sv5
+              sv6
+              lt
+              tt
+              pt
+              game_score
+              score
+              score_a
+              score_p
+              score_d
+              score_s
+              programa
+              sol1
+              estado
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): game_score 
+op3(2): estado programa op5 sv3 
+op4(2): 
+op5(2): estado op1 op2 
+op6(2): 
+sv1(2): 
+sv2(2): estado sv4 op3 op2 op6 op4 
+sv3(2): 
+sv4(2): estado sv1 op4 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): estado op4 op5 op1 
+pt(1): 
+game_score(5): estado sv5 sv6 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv5 op5 op4 
+sol1(3): estado op3 game_score 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+Time taken to build model: 27.72 seconds
+
+
+=== Classifier model for fold 1 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): estado op3 op5 sv4 
+op5(2): estado op1 sv1 
+op6(2): estado tt op1 
+sv1(2): 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): estado sv4 programa 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sol1 sv6 
+sol1(3): estado sv2 op2 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 2 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): estado tt sv4 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): estado sv1 op3 
+sv6(2): estado game_score op6 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv5 
+sol1(3): estado sv5 sv4 op4 
+estado(2): op5 op4 op3 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 3 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): estado sol1 op1 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado op5 op1 op4 
+sol1(3): estado sv5 sv4 op6 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 4 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): estado op1 sv6 op4 
+op6(2): 
+sv1(2): 
+sv2(2): estado sv1 sv6 op6 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): estado sol1 op2 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado op4 
+sol1(2): estado tt 
+estado(2): 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+
+=== Classifier model for fold 5 ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): programa 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): 
+sv2(2): estado sv1 op2 
+sv3(2): 
+sv4(2): 
+sv5(2): estado op3 sv1 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(1): 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv6 
+sol1(3): estado sv5 sv6 op2 
+estado(2): tt sv4 
+LogScore Bayes: NaN
+LogScore BDeu: NaN
+LogScore MDL: NaN
+LogScore ENTROPY: NaN
+LogScore AIC: NaN
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         408               87.3662 %
+Incorrectly Classified Instances        50               10.7066 %
+Kappa statistic                          0.2523
+Mean absolute error                      0.1255
+Root mean squared error                  0.3008
+Relative absolute error                 68.1509 %
+Root relative squared error            100.0755 %
+UnClassified Instances                   9                1.9272 %
+Total Number of Instances              467     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,234    0,034    0,440      0,234    0,306      0,267    0,577     0,272     R
+                 0,966    0,766    0,917      0,966    0,941      0,267    0,596     0,907     A
+Weighted Avg.    0,891    0,691    0,868      0,891    0,876      0,267    0,594     0,842     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  11  36 |   a = R
+  14 397 |   b = A
+

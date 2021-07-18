@@ -1,0 +1,341 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.CostSensitiveClassifier -cost-matrix "[0.0 4.0; 1.0 0.0]" -S 1 -W weka.classifiers.bayes.BayesNet -- -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     dataset_a_discretiz_frec_5_bins
+Instances:    467
+Attributes:   24
+              op1
+              op2
+              op3
+              op4
+              op5
+              op6
+              sv1
+              sv2
+              sv3
+              sv4
+              sv5
+              sv6
+              lt
+              tt
+              pt
+              game_score
+              score
+              score_a
+              score_p
+              score_d
+              score_s
+              programa
+              sol1
+              estado
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+Classifier Model
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): tt 
+sv2(2): estado sv6 sol1 pt 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(2): estado 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): 
+sol1(4): estado pt 
+estado(2): programa game_score op1 tt op4 op5 sv5 
+LogScore Bayes: -6077.526333944776
+LogScore BDeu: -21936.635812491753
+LogScore MDL: -13698.529696782061
+LogScore ENTROPY: -7327.859421208246
+LogScore AIC: -9400.859421208246
+
+
+Cost Matrix
+ 0 4
+ 1 0
+
+
+Time taken to build model: 8.74 seconds
+
+
+=== Classifier model for fold 1 ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+Classifier Model
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): tt 
+op2(2): 
+op3(2): 
+op4(2): estado game_score op2 
+op5(2): 
+op6(2): estado tt pt sv1 
+sv1(2): estado sol1 op5 op3 op1 pt 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): estado sv4 sv6 sol1 op6 op5 pt 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(3): estado game_score 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv6 sol1 op6 pt op4 sv1 
+sol1(4): estado op4 op1 
+estado(2): op2 op1 op5 sv2 
+LogScore Bayes: -4979.412778236586
+LogScore BDeu: -20182.5258018105
+LogScore MDL: -13445.368332605456
+LogScore ENTROPY: -6718.455247890075
+LogScore AIC: -8990.455247890079
+
+
+Cost Matrix
+ 0 4
+ 1 0
+
+
+=== Classifier model for fold 2 ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+Classifier Model
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): op3 
+op6(2): 
+sv1(2): 
+sv2(2): 
+sv3(2): estado game_score sol1 op3 op2 op4 
+sv4(2): 
+sv5(2): 
+sv6(2): estado op4 op6 programa sv5 pt 
+lt(1): 
+tt(5): 
+pt(2): estado sv2 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado game_score tt op4 
+sol1(3): estado pt 
+estado(2): 
+LogScore Bayes: -4488.528580262434
+LogScore BDeu: -9136.630121834898
+LogScore MDL: -7430.401948231831
+LogScore ENTROPY: -4967.025325660004
+LogScore AIC: -5799.025325660004
+
+
+Cost Matrix
+ 0 4
+ 1 0
+
+
+=== Classifier model for fold 3 ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+Classifier Model
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): estado op2 sv6 op5 lt pt 
+sv1(2): estado sol1 tt sv6 sv2 sv5 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): estado game_score op5 sol1 pt sv2 op3 
+sv6(2): 
+lt(2): estado op3 sv4 sv6 op4 pt 
+tt(5): estado sol1 game_score pt op5 sv2 lt 
+pt(2): estado sol1 op1 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado op6 op3 sv1 
+sol1(4): estado 
+estado(2): op3 op1 op5 
+LogScore Bayes: -4918.194257688923
+LogScore BDeu: -32083.85362780774
+LogScore MDL: -19136.646887754334
+LogScore ENTROPY: -8013.85662810854
+LogScore AIC: -11768.856628108542
+
+
+Cost Matrix
+ 0 4
+ 1 0
+
+
+=== Classifier model for fold 4 ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+Classifier Model
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): sv2 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): estado 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): 
+pt(2): estado 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv6 sv5 pt sv1 
+sol1(3): estado tt pt 
+estado(2): op4 op5 op1 op3 
+LogScore Bayes: -4798.84473882087
+LogScore BDeu: -5629.884121586923
+LogScore MDL: -5450.718325681529
+LogScore ENTROPY: -4834.595722750418
+LogScore AIC: -5042.595722750418
+
+
+Cost Matrix
+ 0 4
+ 1 0
+
+
+=== Classifier model for fold 5 ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.bayes.BayesNet -output-debug-info -D -Q weka.classifiers.bayes.net.search.global.HillClimber -- -R -N -P 10 -S k-Fold-CV -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+Classifier Model
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+op1(2): op2 
+op2(2): 
+op3(2): 
+op4(2): 
+op5(2): 
+op6(2): 
+sv1(2): 
+sv2(2): 
+sv3(2): 
+sv4(2): 
+sv5(2): 
+sv6(2): 
+lt(1): 
+tt(5): estado sv4 game_score programa sv1 
+pt(2): estado sv2 
+game_score(5): 
+score(1): 
+score_a(1): 
+score_p(1): 
+score_d(1): 
+score_s(1): 
+programa(5): estado sv6 op2 op5 
+sol1(3): estado pt 
+estado(2): 
+LogScore Bayes: -4659.382637924458
+LogScore BDeu: -10286.958937184752
+LogScore MDL: -7987.941473432588
+LogScore ENTROPY: -5339.799131988292
+LogScore AIC: -6233.799131988293
+
+
+Cost Matrix
+ 0 4
+ 1 0
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         409               87.5803 %
+Incorrectly Classified Instances        58               12.4197 %
+Kappa statistic                          0.3934
+Mean absolute error                      0.1688
+Root mean squared error                  0.3215
+Relative absolute error                 89.0873 %
+Root relative squared error            104.895  %
+Total Number of Instances              467     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,510    0,081    0,424      0,510    0,463      0,396    0,745     0,436     R
+                 0,919    0,490    0,941      0,919    0,930      0,396    0,745     0,951     A
+Weighted Avg.    0,876    0,447    0,887      0,876    0,881      0,396    0,745     0,897     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  25  24 |   a = R
+  34 384 |   b = A
+
