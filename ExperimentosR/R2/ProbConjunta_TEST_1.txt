@@ -1,0 +1,376 @@
+(TEST) Fold 1: FILA N°: 1 -> P(estado == "1") | (lt = "0" , tt = "2" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 3 , score_d = 2 , score_s = 3 , programa = 4 , sol1 = "0" )
+A: 0.0
+R: 1.0
+
+(TEST) Fold 1: FILA N°: 2 -> P(estado == "1") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 8 , score_a = 4 , score_p = 4 , score_d = 3 , score_s = 3 , programa = 4 , sol1 = "0" )
+A: 0.0
+R: 1.0
+
+(TEST) Fold 1: FILA N°: 3 -> P(estado == "1") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 8 , score_a = 5 , score_p = 4 , score_d = 1 , score_s = 2 , programa = 5 , sol1 = "4" )
+A: 0.9998156725494856
+R: 0.00018596501147245885
+
+(TEST) Fold 1: FILA N°: 4 -> P(estado == "1") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 10 , score_a = 7 , score_p = 4 , score_d = 3 , score_s = 3 , programa = 3 , sol1 = "6" )
+A: 0.9993713930034566
+R: 0.0005826586432036296
+
+(TEST) Fold 1: FILA N°: 5 -> P(estado == "1") | (lt = "0" , tt = "0" , pt = "2" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 3 , score_p = 3 , score_d = 2 , score_s = 2 , programa = 4 , sol1 = "6" )
+A: 0.8866699527619324
+R: 0.11002362228139843
+
+(TEST) Fold 1: FILA N°: 6 -> P(estado == "1") | (lt = "0" , tt = "2" , pt = "0" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 4 , score_a = 3 , score_p = 1 , score_d = 1 , score_s = 2 , programa = 4 , sol1 = "8" )
+A: 0.9998069591860813
+R: 0.00019024736802778
+
+(TEST) Fold 1: FILA N°: 7 -> P(estado == "1") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 0 , op2 = 0 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 0 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 2 , score_p = 3 , score_d = 2 , score_s = 1 , programa = 4 , sol1 = "7" )
+A: 0.33177572088791885
+R: 0.6857334437202378
+
+(TEST) Fold 1: FILA N°: 8 -> P(estado == "1") | (lt = "2" , tt = "2" , pt = "1" , game_score = "2" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 0 , sv6 = 1 , score = 8 , score_a = 5 , score_p = 4 , score_d = 2 , score_s = 2 , programa = 2 , sol1 = "7" )
+A: 0.9969879235601419
+R: 0.0025032428763037563
+
+(TEST) Fold 1: FILA N°: 9 -> P(estado == "1") | (lt = "1" , tt = "0" , pt = "2" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 0 , score = 6 , score_a = 4 , score_p = 2 , score_d = 2 , score_s = 3 , programa = 4 , sol1 = "5" )
+A: 0.9971524365405768
+R: 0.00282367703272725
+
+(TEST) Fold 1: FILA N°: 10 -> P(estado == "1") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 0 , op3 = 1 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 4 , score_a = 3 , score_p = 1 , score_d = 1 , score_s = 1 , programa = 5 , sol1 = "8" )
+A: 0.9999990032245408
+R: 1.0894098881385826e-06
+
+(TEST) Fold 1: FILA N°: 11 -> P(estado == "0") | (lt = "1" , tt = "2" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 0 , sv6 = 1 , score = 8 , score_a = 5 , score_p = 4 , score_d = 3 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9999998348810345
+R: 1.741286999030622e-07
+
+(TEST) Fold 1: FILA N°: 12 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 3 , score_d = 2 , score_s = 2 , programa = 3 , sol1 = "1" )
+A: 0.8474330506223188
+R: 0.1608115884093499
+
+(TEST) Fold 1: FILA N°: 13 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 6 , score_p = 4 , score_d = 2 , score_s = 4 , programa = 5 , sol1 = "8" )
+A: 0.9999999895940649
+R: 9.512604120601383e-09
+
+(TEST) Fold 1: FILA N°: 14 -> P(estado == "0") | (lt = "0" , tt = "4" , pt = "1" , game_score = "3" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 7 , score_a = 5 , score_p = 2 , score_d = 3 , score_s = 3 , programa = 5 , sol1 = "7" )
+A: 0.9999997143646293
+R: 2.7559694018648883e-07
+
+(TEST) Fold 1: FILA N°: 15 -> P(estado == "0") | (lt = "3" , tt = "1" , pt = "1" , game_score = "2" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 3 , score_a = 2 , score_p = 2 , score_d = 0 , score_s = 1 , programa = 5 , sol1 = "8" )
+A: 0.9999998670059554
+R: 1.36322408303054e-07
+
+(TEST) Fold 1: FILA N°: 16 -> P(estado == "0") | (lt = "1" , tt = "0" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 9 , score_a = 6 , score_p = 4 , score_d = 2 , score_s = 2 , programa = 4 , sol1 = "7" )
+A: 0.999881509232462
+R: 9.946689535713056e-05
+
+(TEST) Fold 1: FILA N°: 17 -> P(estado == "0") | (lt = "0" , tt = "2" , pt = "3" , game_score = "2" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 4 , score_a = 3 , score_p = 2 , score_d = 2 , score_s = 1 , programa = 4 , sol1 = "5" )
+A: 0.27854335402906494
+R: 0.7152471781329045
+
+(TEST) Fold 1: FILA N°: 18 -> P(estado == "0") | (lt = "0" , tt = "2" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 2 , score_d = 3 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9999931422199827
+R: 7.086421365754203e-06
+
+(TEST) Fold 1: FILA N°: 19 -> P(estado == "0") | (lt = "0" , tt = "2" , pt = "0" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 3 , score_p = 3 , score_d = 2 , score_s = 3 , programa = 5 , sol1 = "9" )
+A: 0.9999828976233004
+R: 1.789074798533536e-05
+
+(TEST) Fold 1: FILA N°: 20 -> P(estado == "0") | (lt = "4" , tt = "3" , pt = "3" , game_score = "4" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 0 , score = 5 , score_a = 2 , score_p = 2 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "8" )
+A: 0.9999999601959835
+R: 4.044573908913735e-08
+
+(TEST) Fold 1: FILA N°: 21 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 2 , score_p = 3 , score_d = 1 , score_s = 2 , programa = 3 , sol1 = "9" )
+A: 0.9987139211586049
+R: 0.0012860788413951935
+
+(TEST) Fold 1: FILA N°: 22 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 6 , score_a = 3 , score_p = 3 , score_d = 2 , score_s = 1 , programa = 5 , sol1 = "9" )
+A: 0.9999459876090688
+R: 5.648285750140471e-05
+
+(TEST) Fold 1: FILA N°: 23 -> P(estado == "0") | (lt = "1" , tt = "0" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 8 , score_a = 5 , score_p = 4 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9999994804694315
+R: 5.666108220440761e-07
+
+(TEST) Fold 1: FILA N°: 24 -> P(estado == "0") | (lt = "0" , tt = "2" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 5 , score_p = 5 , score_d = 2 , score_s = 3 , programa = 5 , sol1 = "6" )
+A: 0.9999989971068262
+R: 9.806604946629856e-07
+
+(TEST) Fold 1: FILA N°: 25 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "0" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 0 , sv5 = 0 , sv6 = 1 , score = 8 , score_a = 7 , score_p = 1 , score_d = 4 , score_s = 3 , programa = 5 , sol1 = "4" )
+A: 0.948432468049046
+R: 0.050710740513446685
+
+(TEST) Fold 1: FILA N°: 26 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 11 , score_a = 7 , score_p = 5 , score_d = 3 , score_s = 3 , programa = 2 , sol1 = "9" )
+A: 0.9999990722456702
+R: 8.583033825390059e-07
+
+(TEST) Fold 1: FILA N°: 27 -> P(estado == "0") | (lt = "2" , tt = "2" , pt = "2" , game_score = "2" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 0 , score = 6 , score_a = 4 , score_p = 2 , score_d = 1 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9999999999911342
+R: 8.971017794520234e-12
+
+(TEST) Fold 1: FILA N°: 28 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 5 , score_p = 5 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "7" )
+A: 0.9999999550733359
+R: 4.996161396545156e-08
+
+(TEST) Fold 1: FILA N°: 29 -> P(estado == "0") | (lt = "0" , tt = "2" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 2 , score_a = 2 , score_p = 2 , score_d = 0 , score_s = 0 , programa = 5 , sol1 = "6" )
+A: 0.9999328913781267
+R: 6.618997920408266e-05
+
+(TEST) Fold 1: FILA N°: 30 -> P(estado == "0") | (lt = "2" , tt = "0" , pt = "3" , game_score = "2" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 0 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 4 , score_a = 3 , score_p = 1 , score_d = 1 , score_s = 2 , programa = 5 , sol1 = "7" )
+A: 0.9982065484399084
+R: 0.0015978402948301398
+
+(TEST) Fold 1: FILA N°: 31 -> P(estado == "0") | (lt = "1" , tt = "2" , pt = "2" , game_score = "2" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 8 , score_a = 4 , score_p = 5 , score_d = 2 , score_s = 2 , programa = 3 , sol1 = "8" )
+A: 0.9995886132482573
+R: 0.00039593621655417607
+
+(TEST) Fold 1: FILA N°: 32 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "1" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 6 , score_p = 4 , score_d = 3 , score_s = 3 , programa = 5 , sol1 = "6" )
+A: 0.8506816195775384
+R: 0.14424460955137308
+
+(TEST) Fold 1: FILA N°: 33 -> P(estado == "0") | (lt = "3" , tt = "2" , pt = "1" , game_score = "2" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 0 , sv6 = 0 , score = 5 , score_a = 3 , score_p = 1 , score_d = 2 , score_s = 3 , programa = 5 , sol1 = "8" )
+A: 0.6521413094320728
+R: 0.35759182765137437
+
+(TEST) Fold 1: FILA N°: 34 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "1" , game_score = "0" , op1 = 0 , op2 = 0 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 5 , score_p = 1 , score_d = 4 , score_s = 3 , programa = 4 , sol1 = "7" )
+A: 0.9999845357744246
+R: 1.4700591188841298e-05
+
+(TEST) Fold 1: FILA N°: 35 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "2" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 3 , score_a = 2 , score_p = 0 , score_d = 2 , score_s = 1 , programa = 4 , sol1 = "9" )
+A: 0.9999891795203742
+R: 9.60939649537791e-06
+
+(TEST) Fold 1: FILA N°: 36 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 2 , score_d = 3 , score_s = 3 , programa = 4 , sol1 = "9" )
+A: 0.9997141334931214
+R: 0.0003281620070172418
+
+(TEST) Fold 1: FILA N°: 37 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 9 , score_a = 5 , score_p = 4 , score_d = 3 , score_s = 2 , programa = 4 , sol1 = "9" )
+A: 0.9999983462777877
+R: 1.531143053085051e-06
+
+(TEST) Fold 1: FILA N°: 38 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "2" , game_score = "2" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 2 , score_a = 2 , score_p = 0 , score_d = 1 , score_s = 1 , programa = 4 , sol1 = "8" )
+A: 0.7910725986336884
+R: 0.20714971695501722
+
+(TEST) Fold 1: FILA N°: 39 -> P(estado == "0") | (lt = "2" , tt = "0" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 0 , score = 4 , score_a = 3 , score_p = 1 , score_d = 3 , score_s = 1 , programa = 4 , sol1 = "6" )
+A: 0.9996473367974188
+R: 0.0003352791618286419
+
+(TEST) Fold 1: FILA N°: 40 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 5 , score_p = 1 , score_d = 1 , score_s = 1 , programa = 5 , sol1 = "9" )
+A: 0.9999995626575169
+R: 4.621301565892586e-07
+
+(TEST) Fold 1: FILA N°: 41 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "2" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 3 , score_p = 5 , score_d = 0 , score_s = 0 , programa = 5 , sol1 = "7" )
+A: 0.9998612600388599
+R: 0.0001344206799044049
+
+(TEST) Fold 1: FILA N°: 42 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 0 , score = 7 , score_a = 3 , score_p = 4 , score_d = 3 , score_s = 2 , programa = 4 , sol1 = "7" )
+A: 0.9999998317297016
+R: 1.6872719110555031e-07
+
+(TEST) Fold 1: FILA N°: 43 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "0" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 2 , score_d = 1 , score_s = 2 , programa = 4 , sol1 = "8" )
+A: 0.4961279667585038
+R: 0.4873700267473427
+
+(TEST) Fold 1: FILA N°: 44 -> P(estado == "0") | (lt = "4" , tt = "1" , pt = "2" , game_score = "3" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 0 , sv3 = 0 , sv4 = 0 , sv5 = 0 , sv6 = 0 , score = 4 , score_a = 2 , score_p = 2 , score_d = 1 , score_s = 2 , programa = 5 , sol1 = "8" )
+A: 0.5597662795363402
+R: 0.47317952232426685
+
+(TEST) Fold 1: FILA N°: 45 -> P(estado == "0") | (lt = "2" , tt = "0" , pt = "0" , game_score = "1" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 0 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 8 , score_a = 5 , score_p = 5 , score_d = 1 , score_s = 1 , programa = 3 , sol1 = "7" )
+A: 0.8191356379133629
+R: 0.18669796557001658
+
+(TEST) Fold 1: FILA N°: 46 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "2" , game_score = "1" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 3 , score_a = 2 , score_p = 1 , score_d = 1 , score_s = 1 , programa = 4 , sol1 = "6" )
+A: 0.4175869951380412
+R: 0.571988994030379
+
+(TEST) Fold 1: FILA N°: 47 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "2" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 3 , score_d = 1 , score_s = 2 , programa = 5 , sol1 = "5" )
+A: 0.9290840312505981
+R: 0.07200915491292996
+
+(TEST) Fold 1: FILA N°: 48 -> P(estado == "0") | (lt = "1" , tt = "0" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 0 , op3 = 1 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 5 , score_p = 2 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "8" )
+A: 0.9999846216547961
+R: 1.565629456743953e-05
+
+(TEST) Fold 1: FILA N°: 49 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "2" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 3 , score_p = 2 , score_d = 1 , score_s = 2 , programa = 2 , sol1 = "9" )
+A: 0.9996221814179171
+R: 0.00041019074424055677
+
+(TEST) Fold 1: FILA N°: 50 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 3 , score_d = 1 , score_s = 1 , programa = 5 , sol1 = "7" )
+A: 0.9999943960268171
+R: 5.345493485773001e-06
+
+(TEST) Fold 1: FILA N°: 51 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 7 , score_a = 5 , score_p = 3 , score_d = 2 , score_s = 2 , programa = 4 , sol1 = "7" )
+A: 0.9982691706649408
+R: 0.0017501336744833705
+
+(TEST) Fold 1: FILA N°: 52 -> P(estado == "0") | (lt = "1" , tt = "0" , pt = "2" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 0 , sv6 = 1 , score = 5 , score_a = 3 , score_p = 2 , score_d = 1 , score_s = 2 , programa = 4 , sol1 = "5" )
+A: 0.9742408609518396
+R: 0.02639773066466503
+
+(TEST) Fold 1: FILA N°: 53 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 0 , op3 = 1 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 2 , score_p = 2 , score_d = 1 , score_s = 2 , programa = 3 , sol1 = "9" )
+A: 0.9999971277318305
+R: 2.607721185360485e-06
+
+(TEST) Fold 1: FILA N°: 54 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 10 , score_a = 6 , score_p = 5 , score_d = 3 , score_s = 3 , programa = 3 , sol1 = "8" )
+A: 0.9999545608547228
+R: 4.452335577971374e-05
+
+(TEST) Fold 1: FILA N°: 55 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 4 , score_a = 3 , score_p = 0 , score_d = 3 , score_s = 3 , programa = 3 , sol1 = "8" )
+A: 0.9973873850207052
+R: 0.00266751723984286
+
+(TEST) Fold 1: FILA N°: 56 -> P(estado == "0") | (lt = "1" , tt = "0" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 2 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9999963653800475
+R: 3.768722305744604e-06
+
+(TEST) Fold 1: FILA N°: 57 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 7 , score_a = 4 , score_p = 3 , score_d = 3 , score_s = 3 , programa = 3 , sol1 = "8" )
+A: 0.7103846651224668
+R: 0.2989123013890592
+
+(TEST) Fold 1: FILA N°: 58 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "2" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 3 , score_p = 2 , score_d = 2 , score_s = 1 , programa = 3 , sol1 = "8" )
+A: 0.9422119139218922
+R: 0.05706074437811349
+
+(TEST) Fold 1: FILA N°: 59 -> P(estado == "0") | (lt = "2" , tt = "1" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 0 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 0 , sv5 = 0 , sv6 = 0 , score = 3 , score_a = 2 , score_p = 0 , score_d = 2 , score_s = 2 , programa = 4 , sol1 = "7" )
+A: 0.6426372965252711
+R: 0.3332808944402206
+
+(TEST) Fold 1: FILA N°: 60 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 10 , score_a = 6 , score_p = 4 , score_d = 4 , score_s = 3 , programa = 3 , sol1 = "9" )
+A: 0.9985310878195172
+R: 0.0014642479475549942
+
+(TEST) Fold 1: FILA N°: 61 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 0 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 5 , score_p = 5 , score_d = 2 , score_s = 2 , programa = 2 , sol1 = "8" )
+A: 0.9988049523902197
+R: 0.0011472680568909855
+
+(TEST) Fold 1: FILA N°: 62 -> P(estado == "0") | (lt = "3" , tt = "2" , pt = "1" , game_score = "3" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 0 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 0 , sv6 = 0 , score = 8 , score_a = 6 , score_p = 2 , score_d = 4 , score_s = 3 , programa = 5 , sol1 = "8" )
+A: 0.43259445062695073
+R: 0.5641206501388731
+
+(TEST) Fold 1: FILA N°: 63 -> P(estado == "0") | (lt = "0" , tt = "2" , pt = "2" , game_score = "2" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 3 , score_a = 1 , score_p = 2 , score_d = 1 , score_s = 1 , programa = 5 , sol1 = "9" )
+A: 0.9999825933008573
+R: 2.0623664845594277e-05
+
+(TEST) Fold 1: FILA N°: 64 -> P(estado == "0") | (lt = "1" , tt = "2" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 2 , score_p = 3 , score_d = 2 , score_s = 2 , programa = 3 , sol1 = "8" )
+A: 0.9996704753696821
+R: 0.0003118718135904952
+
+(TEST) Fold 1: FILA N°: 65 -> P(estado == "0") | (lt = "2" , tt = "1" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 7 , score_a = 3 , score_p = 4 , score_d = 2 , score_s = 3 , programa = 4 , sol1 = "8" )
+A: 0.9999998674807092
+R: 1.2612019961906727e-07
+
+(TEST) Fold 1: FILA N°: 66 -> P(estado == "0") | (lt = "5" , tt = "1" , pt = "2" , game_score = "3" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 0 , sv3 = 0 , sv4 = 1 , sv5 = 0 , sv6 = 0 , score = 4 , score_a = 2 , score_p = 2 , score_d = 1 , score_s = 1 , programa = 4 , sol1 = "7" )
+A: 0.0008648742920577303
+R: 0.9991139918506652
+
+(TEST) Fold 1: FILA N°: 67 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 5 , score_p = 5 , score_d = 1 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9999999858061169
+R: 1.3845473572241625e-08
+
+(TEST) Fold 1: FILA N°: 68 -> P(estado == "0") | (lt = "1" , tt = "2" , pt = "3" , game_score = "2" , op1 = 0 , op2 = 0 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 7 , score_a = 4 , score_p = 4 , score_d = 1 , score_s = 2 , programa = 3 , sol1 = "6" )
+A: 0.9991370587785147
+R: 0.0008511377853779121
+
+(TEST) Fold 1: FILA N°: 69 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 7 , score_a = 4 , score_p = 3 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9974715225793445
+R: 0.002521399762871695
+
+(TEST) Fold 1: FILA N°: 70 -> P(estado == "0") | (lt = "1" , tt = "2" , pt = "0" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 0 , sv5 = 0 , sv6 = 1 , score = 7 , score_a = 4 , score_p = 3 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.997002344049593
+R: 0.0033301319164124
+
+(TEST) Fold 1: FILA N°: 71 -> P(estado == "0") | (lt = "0" , tt = "4" , pt = "3" , game_score = "3" , op1 = 1 , op2 = 0 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 4 , score_a = 3 , score_p = 2 , score_d = 1 , score_s = 1 , programa = 4 , sol1 = "9" )
+A: 0.9999977774827965
+R: 2.3268450135733867e-06
+
+(TEST) Fold 1: FILA N°: 72 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 4 , score_a = 3 , score_p = 2 , score_d = 1 , score_s = 1 , programa = 3 , sol1 = "6" )
+A: 0.9995266722023141
+R: 0.0004456340524398705
+
+(TEST) Fold 1: FILA N°: 73 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 5 , score_a = 4 , score_p = 1 , score_d = 2 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9992958655305745
+R: 0.000706264963997328
+
+(TEST) Fold 1: FILA N°: 74 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "0" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 10 , score_a = 6 , score_p = 4 , score_d = 3 , score_s = 4 , programa = 5 , sol1 = "9" )
+A: 0.9999969495499493
+R: 2.973270590587684e-06
+
+(TEST) Fold 1: FILA N°: 75 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 0 , sv6 = 1 , score = 8 , score_a = 4 , score_p = 4 , score_d = 2 , score_s = 3 , programa = 5 , sol1 = "9" )
+A: 0.9999999996643095
+R: 3.47799037025501e-10
+
+(TEST) Fold 1: FILA N°: 76 -> P(estado == "0") | (lt = "1" , tt = "0" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 8 , score_a = 5 , score_p = 3 , score_d = 3 , score_s = 3 , programa = 5 , sol1 = "6" )
+A: 0.938301467856964
+R: 0.06247940862897661
+
+(TEST) Fold 1: FILA N°: 77 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "3" , game_score = "2" , op1 = 1 , op2 = 0 , op3 = 1 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 5 , score_p = 5 , score_d = 2 , score_s = 3 , programa = 3 , sol1 = "8" )
+A: 0.9999996581887698
+R: 3.6672036039751195e-07
+
+(TEST) Fold 1: FILA N°: 78 -> P(estado == "0") | (lt = "2" , tt = "1" , pt = "3" , game_score = "2" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 0 , score = 8 , score_a = 4 , score_p = 5 , score_d = 1 , score_s = 2 , programa = 3 , sol1 = "9" )
+A: 0.9999999999968194
+R: 3.160868888898182e-12
+
+(TEST) Fold 1: FILA N°: 79 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 8 , score_a = 4 , score_p = 5 , score_d = 1 , score_s = 2 , programa = 5 , sol1 = "9" )
+A: 0.9999997067484933
+R: 2.941369255649283e-07
+
+(TEST) Fold 1: FILA N°: 80 -> P(estado == "0") | (lt = "2" , tt = "0" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 0 , sv6 = 1 , score = 9 , score_a = 6 , score_p = 4 , score_d = 3 , score_s = 2 , programa = 2 , sol1 = "9" )
+A: 0.999999895340478
+R: 9.267830308647905e-08
+
+(TEST) Fold 1: FILA N°: 81 -> P(estado == "0") | (lt = "0" , tt = "2" , pt = "2" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 12 , score_a = 8 , score_p = 5 , score_d = 4 , score_s = 4 , programa = 4 , sol1 = "9" )
+A: 0.9999999192251363
+R: 7.734648593494976e-08
+
+(TEST) Fold 1: FILA N°: 82 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 5 , score_p = 4 , score_d = 3 , score_s = 3 , programa = 4 , sol1 = "9" )
+A: 0.8812692049164927
+R: 0.12863228394460138
+
+(TEST) Fold 1: FILA N°: 83 -> P(estado == "0") | (lt = "1" , tt = "2" , pt = "1" , game_score = "2" , op1 = 0 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 0 , sv5 = 1 , sv6 = 1 , score = 11 , score_a = 7 , score_p = 5 , score_d = 4 , score_s = 3 , programa = 3 , sol1 = "9" )
+A: 0.9999659499417739
+R: 3.307349274473767e-05
+
+(TEST) Fold 1: FILA N°: 84 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "1" , game_score = "1" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 10 , score_a = 6 , score_p = 5 , score_d = 3 , score_s = 3 , programa = 4 , sol1 = "8" )
+A: 0.9570502006263653
+R: 0.04299954392493019
+
+(TEST) Fold 1: FILA N°: 85 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 5 , score_p = 5 , score_d = 2 , score_s = 3 , programa = 3 , sol1 = "9" )
+A: 0.9996701805001711
+R: 0.00028178778765418816
+
+(TEST) Fold 1: FILA N°: 86 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 6 , score_a = 4 , score_p = 2 , score_d = 2 , score_s = 3 , programa = 3 , sol1 = "9" )
+A: 0.9996915676216741
+R: 0.00027532361192603334
+
+(TEST) Fold 1: FILA N°: 87 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 9 , score_a = 6 , score_p = 4 , score_d = 3 , score_s = 3 , programa = 5 , sol1 = "9" )
+A: 0.9999991298011043
+R: 7.880945417633544e-07
+
+(TEST) Fold 1: FILA N°: 88 -> P(estado == "0") | (lt = "2" , tt = "0" , pt = "3" , game_score = "2" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 10 , score_a = 6 , score_p = 5 , score_d = 3 , score_s = 3 , programa = 5 , sol1 = "9" )
+A: 0.9999999999998472
+R: 1.467024406330672e-13
+
+(TEST) Fold 1: FILA N°: 89 -> P(estado == "0") | (lt = "0" , tt = "3" , pt = "1" , game_score = "2" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 8 , score_a = 5 , score_p = 3 , score_d = 3 , score_s = 3 , programa = 4 , sol1 = "9" )
+A: 0.9999440182787556
+R: 6.308062927849246e-05
+
+(TEST) Fold 1: FILA N°: 90 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "2" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 10 , score_a = 7 , score_p = 4 , score_d = 4 , score_s = 3 , programa = 5 , sol1 = "9" )
+A: 0.9999998975595933
+R: 1.1233714112748255e-07
+
+(TEST) Fold 1: FILA N°: 91 -> P(estado == "0") | (lt = "0" , tt = "0" , pt = "1" , game_score = "0" , op1 = 1 , op2 = 0 , op3 = 1 , op4 = 1 , op5 = 1 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 1 , sv4 = 1 , sv5 = 1 , sv6 = 0 , score = 8 , score_a = 5 , score_p = 4 , score_d = 2 , score_s = 3 , programa = 3 , sol1 = "9" )
+A: 0.9999999147923332
+R: 9.931374052354277e-08
+
+(TEST) Fold 1: FILA N°: 92 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 1 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 0 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 10 , score_a = 7 , score_p = 4 , score_d = 4 , score_s = 3 , programa = 3 , sol1 = "9" )
+A: 0.9978424343593977
+R: 0.0018044991167080165
+
+(TEST) Fold 1: FILA N°: 93 -> P(estado == "0") | (lt = "1" , tt = "1" , pt = "1" , game_score = "1" , op1 = 0 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 0 , op6 = 1 , sv1 = 1 , sv2 = 0 , sv3 = 0 , sv4 = 0 , sv5 = 0 , sv6 = 1 , score = 8 , score_a = 4 , score_p = 5 , score_d = 2 , score_s = 2 , programa = 3 , sol1 = "9" )
+A: 0.5724894935743778
+R: 0.4022229962610795
+
+(TEST) Fold 1: FILA N°: 94 -> P(estado == "0") | (lt = "0" , tt = "1" , pt = "0" , game_score = "0" , op1 = 1 , op2 = 0 , op3 = 0 , op4 = 0 , op5 = 1 , op6 = 1 , sv1 = 1 , sv2 = 1 , sv3 = 0 , sv4 = 1 , sv5 = 1 , sv6 = 1 , score = 11 , score_a = 7 , score_p = 5 , score_d = 4 , score_s = 3 , programa = 5 , sol1 = "9" )
+A: 0.99999999999138
+R: 8.134551390465717e-12
+
